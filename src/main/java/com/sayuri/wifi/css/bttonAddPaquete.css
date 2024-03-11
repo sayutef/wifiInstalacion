@@ -1,0 +1,15 @@
+.bttonAdd {
+    -fx-background-color: #007bff; /* Color de fondo azul */
+    -fx-text-fill: white; /* Color del texto blanco */
+    -fx-font-size: 14px; /* Tamaño de la fuente */
+    -fx-padding: 8px 16px; /* Padding interno */
+    -fx-background-radius: 5px; /* Borde redondeado */
+    -fx-border-radius: 5px; /* Borde redondeado */
+    -fx-border-color: #007bff; /* Color del borde */
+    -fx-border-width: 2px; /* Ancho del borde */
+}
+
+.bttonAdd:hover {
+    -fx-background-color: #0056b3; /* Cambio de color al pasar el mouse */
+    -fx-border-color: #0056b3; /* Cambio de color del borde al pasar el mouse */
+}
