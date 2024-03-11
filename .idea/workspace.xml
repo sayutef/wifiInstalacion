@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../A/A.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Alumno/Alumno.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Arreglo/Arreglo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Asignatura/Asignatura.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../B/B.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Elemento/Elemento.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ElementoM/ElementoM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Est/Est.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamenHoracio/ExamenHoracio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examn/Examn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gestion/Gestion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Impresora/Impresora.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log/Log.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login1/Login1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pagina/Pagina.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Panaderia/Panaderia.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programa/Programa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProyectoComp/ProyectoComp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SetZero/SetZero.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SumaArrays/SumaArrays.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Target/Target.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Target2/Target2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../URL/URL.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uno/Uno.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirComprobanteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirPaqueteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirProductoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirTecnicosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirUsuarioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/removerPaqueteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/removerProductoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/removerTecnicoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/viewEmpleadosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/viewPaqueteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/viewProductoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/viewUsuarioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/agregarComprobante.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/agregarPaquetes.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/agregarProductos.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/agregarTecnicos.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/agregarUsuario.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/eliminarPaquetes.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/eliminarProductos.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/eliminarTecnicos.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/verEmpleados.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/verPaquetesWifi.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/verProductos.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/verUsuario.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../burble/burble.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estructuradedatos/estructuradedatos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../holamundo/holamundo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nose/nose.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sesion9/sesion9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/untitled1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifiCompl/wifiCompl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifiComplem1/wifiComplem1.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2dFdtFfvuNq798z8y56WOTb4fMr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sayur\IdeaProjects\Wifi\src\main\resources\com\sayuri\wifi" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sayuri.wifi" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="" />
+      <created>1709607975834</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709607975834</updated>
+      <workItem from="1709607976905" duration="2378000" />
+      <workItem from="1710194480564" duration="2329000" />
+      <workItem from="1710196840868" duration="1027000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="746.0" prefWidth="855.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <HBox layoutX="67.0" layoutY="295.0" prefHeight="31.0" prefWidth="486.0" spacing="68.0">
+            <children>
+                <Label prefHeight="31.0" prefWidth="114.0" text="Usuario:" textFill="WHITE">
+                    <font>
+                        <Font name="Arial Bold" size="21.0" />
+                    </font>
+                </Label>
+                <TextField layoutX="150.0" prefHeight="31.0" prefWidth="332.0" />
+            </children>
+        </HBox>
+        <HBox layoutX="67.0" layoutY="395.0" prefHeight="30.0" prefWidth="369.0" spacing="5.0">
+            <children>
+                <Label prefHeight="31.0" prefWidth="85.0" text="Contraseña:" textFill="WHITE">
+                    <font>
+                        <Font name="Arial Bold" size="14.0" />
+                    </font>
+                </Label>
+                <PasswordField prefHeight="31.0" prefWidth="272.0" />
+            </children>
+        </HBox>
+        <HBox layoutX="282.0" layoutY="600.0" prefHeight="42.0" prefWidth="358.0" spacing="50.0">
+            <children>
+                <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="154.0" style="-fx-background-color: #008000;" text="Inicio Sesion" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="154.0" style="-fx-background-color: #FF0000;" text="Cancelar" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+        <Label alignment="CENTER" layoutX="258.0" layoutY="59.0" prefHeight="42.0" prefWidth="340.0" text="Instalación de wifi" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <HBox layoutX="55.0" layoutY="186.0" prefHeight="31.0" prefWidth="707.0">
+            <children>
+                <Label prefHeight="31.0" prefWidth="121.0" text="Tipo de usuario:" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </Label>
+                <MenuButton contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="31.0" prefWidth="302.0">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Administrador" />
+                        <MenuItem mnemonicParsing="false" text="SuperAdministrador" />
+                    </items>
+                </MenuButton>
+            </children>
+        </HBox>
+    </children>
+</AnchorPane>
