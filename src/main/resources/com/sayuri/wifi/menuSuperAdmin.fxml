@@ -38,7 +38,7 @@
             </ImageView>
          </children>
       </Pane>
-      <GridPane layoutX="159.0" layoutY="310.0" prefHeight="483.0" prefWidth="1098.0">
+      <GridPane layoutX="127.0" layoutY="310.0" prefHeight="483.0" prefWidth="1098.0">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -104,7 +104,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="bttonSeeUser" contentDisplay="TOP" layoutX="20.0" layoutY="26.0" mnemonicParsing="false" onMouseClicked="#bttonSeeUser" prefHeight="134.0" prefWidth="269.0" stylesheets="@../../../../java/com/sayuri/wifi/css/bttonAddPaquete.css" text="Ver Usuarios" GridPane.columnIndex="2" GridPane.rowIndex="2">
+            <Button fx:id="bttonSeeUser" contentDisplay="TOP" layoutX="20.0" layoutY="26.0" mnemonicParsing="false" onMouseClicked="#bttonSeeUser" prefHeight="134.0" prefWidth="269.0" stylesheets="@../../../../java/com/sayuri/wifi/css/bttonAddPaquete.css" text="Ver Usuarios" GridPane.columnIndex="3" GridPane.rowIndex="2">
                <graphic>
                   <ImageView fitHeight="114.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -113,7 +113,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="bttonDelateUser" contentDisplay="TOP" layoutX="10.0" layoutY="16.0" mnemonicParsing="false" onMouseClicked="#bttonDelateUser" prefHeight="134.0" prefWidth="269.0" stylesheets="@../../../../java/com/sayuri/wifi/css/bttonAddPaquete.css" text="Eliminar Usuario" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <Button fx:id="bttonDelateUser" contentDisplay="TOP" layoutX="10.0" layoutY="16.0" mnemonicParsing="false" onMouseClicked="#bttonDelateUser" prefHeight="134.0" prefWidth="269.0" stylesheets="@../../../../java/com/sayuri/wifi/css/bttonAddPaquete.css" text="Eliminar Usuario" GridPane.columnIndex="2" GridPane.rowIndex="2">
                <graphic>
                   <ImageView fitHeight="114.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -122,7 +122,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="bttonAddUser" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#bttonAddUser" prefHeight="134.0" prefWidth="269.0" stylesheets="@../../../../java/com/sayuri/wifi/css/bttonAddPaquete.css" text="Agregar Usuario" GridPane.rowIndex="2">
+            <Button fx:id="bttonAddUser" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#bttonAddUser" prefHeight="134.0" prefWidth="269.0" stylesheets="@../../../../java/com/sayuri/wifi/css/bttonAddPaquete.css" text="Agregar Usuario" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <graphic>
                   <ImageView fitHeight="114.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -149,7 +149,25 @@
                   </ImageView>
                </graphic>
             </Button>
+            <Button fx:id="bttonSeeProduct" contentDisplay="TOP" layoutX="834.0" layoutY="177.0" mnemonicParsing="false" onMouseClicked="#bttonSeeProduct" prefHeight="134.0" prefWidth="269.0" stylesheets="@../../../../java/com/sayuri/wifi/css/bttonAddPaquete.css" text="Ver Producto" GridPane.rowIndex="2">
+               <graphic>
+                  <ImageView fitHeight="114.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Imagenes/product_13335269.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
          </children>
       </GridPane>
+      <VBox layoutX="442.0" layoutY="214.0" prefHeight="54.0" prefWidth="467.0">
+         <children>
+            <Label prefHeight="54.0" prefWidth="518.0" text="Menú SúperAdministrador" textFill="#1500ff">
+               <font>
+                  <Font name="System Bold" size="37.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
    </children>
 </AnchorPane>
