@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="commit menu SuperAdmin">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/css/bttonAddPaquete.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/css/bttonAddPaquete.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/menuSuperAdmin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/menuSuperAdmin.fxml" afterDir="false" />
+    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="commit menu SuperAdmin2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/menuAdminControllers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/menuAdmi.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +63,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Milto\IdeaProject\wifiInstalacion\src\main\resources\com\sayuri\wifi" />
       <recent name="C:\Users\Sayur\IdeaProjects\Wifi\src\main\resources\com\sayuri\wifi" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -87,7 +89,7 @@
       <workItem from="1710194480564" duration="2329000" />
       <workItem from="1710196840868" duration="1775000" />
       <workItem from="1710616644086" duration="250000" />
-      <workItem from="1710621211823" duration="416000" />
+      <workItem from="1710621211823" duration="1357000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit">
       <option name="closed" value="true" />
@@ -105,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710621265970</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit menu SuperAdmin2">
+      <option name="closed" value="true" />
+      <created>1710622131910</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710622131910</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +124,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="My first commit" />
     <MESSAGE value="commit menu SuperAdmin" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit menu SuperAdmin" />
+    <MESSAGE value="commit menu SuperAdmin2" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit menu SuperAdmin2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
