@@ -51,6 +51,9 @@ public class menuSuperAdminController {
     private Button bttonSeeProduct;
 
     @FXML
+    private Button bttonSalir;
+
+    @FXML
     void bttonAddPaquete(MouseEvent event) {
 
     }
@@ -91,6 +94,11 @@ public class menuSuperAdminController {
     }
 
     @FXML
+    void bttonSalir(MouseEvent event) {
+
+    }
+
+    @FXML
     void bttonSeePaquete(MouseEvent event) {
 
     }
@@ -124,7 +132,7 @@ public class menuSuperAdminController {
         assert bttonDelateProductos != null : "fx:id=\"bttonDelateProductos\" was not injected: check your FXML file 'menuSuperAdmin.fxml'.";
         assert bttonAddProductos != null : "fx:id=\"bttonAddProductos\" was not injected: check your FXML file 'menuSuperAdmin.fxml'.";
         assert bttonSeeProduct != null : "fx:id=\"bttonSeeProduct\" was not injected: check your FXML file 'menuSuperAdmin.fxml'.";
+        assert bttonSalir != null : "fx:id=\"bttonSalir\" was not injected: check your FXML file 'menuSuperAdmin.fxml'.";
 
     }
 }
-
