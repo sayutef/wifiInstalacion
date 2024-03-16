@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="commit menu SuperAdmin2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/menuAdminControllers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/menuAdmi.fxml" afterDir="false" />
+    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="commit producto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/menuAdmi.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/menuAdmi.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
       <workItem from="1710194480564" duration="2329000" />
       <workItem from="1710196840868" duration="1775000" />
       <workItem from="1710616644086" duration="250000" />
-      <workItem from="1710621211823" duration="1357000" />
+      <workItem from="1710621211823" duration="3030000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit">
       <option name="closed" value="true" />
@@ -115,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710622131910</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit producto">
+      <option name="closed" value="true" />
+      <created>1710623256526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710623256526</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +132,8 @@
     <MESSAGE value="My first commit" />
     <MESSAGE value="commit menu SuperAdmin" />
     <MESSAGE value="commit menu SuperAdmin2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit menu SuperAdmin2" />
+    <MESSAGE value="commit producto" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit producto" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
