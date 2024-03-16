@@ -10,42 +10,53 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="519.0" prefWidth="741.0" style="-fx-background-color: #67BEC;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sayuri.wifi.controllers.añadirTecnicosController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="519.0" prefWidth="716.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sayuri.wifi.controllers.añadirProductoController">
    <children>
-      <Pane layoutX="597.0" prefHeight="519.0" prefWidth="144.0" style="-fx-background-color: #67B5EC;" />
-      <Label layoutX="187.0" layoutY="33.0" text="Agregar Técnicos">
-         <font>
-            <Font size="27.0" />
-         </font>
-      </Label>
-      <VBox layoutX="83.0" layoutY="120.0" prefHeight="226.0" prefWidth="305.0" spacing="14.0">
+      <Pane prefHeight="519.0" prefWidth="123.0" style="-fx-background-color: #67B5EC;" />
+      <VBox layoutX="149.0" layoutY="97.0" prefHeight="327.0" prefWidth="339.0" spacing="25.0">
          <children>
-            <Label text="Nombre del técnico">
+            <Label text="Cantidad de productos">
                <font>
                   <Font size="19.0" />
                </font>
             </Label>
-            <TextField fx:id="textNombreTecnico" />
-            <Label text="Apellido">
+            <TextField />
+            <Label text="Nombre del producto">
                <font>
                   <Font size="20.0" />
                </font>
             </Label>
-            <TextField fx:id="textApellido" />
-            <Label prefHeight="21.0" prefWidth="85.0" text="Teléfono">
+            <TextField />
+            <Label text="Costo">
                <font>
-                  <Font size="21.0" />
+                  <Font size="19.0" />
                </font>
             </Label>
-            <TextField fx:id="textTelefono" />
+            <TextField />
          </children>
       </VBox>
-      <Button fx:id="bttonAdd" layoutX="290.0" layoutY="427.0" mnemonicParsing="false" onMouseClicked="#bttonAdd" prefHeight="31.0" prefWidth="90.0" style="-fx-background-radius: 15;" text="Agregar" />
-      <ImageView fitHeight="62.0" fitWidth="96.0" layoutX="422.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+      <Button layoutX="235.0" layoutY="452.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="123.0" text="agregar" />
+      <Pane layoutX="271.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
+      <Pane layoutX="306.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
+      <Pane layoutX="337.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
+      <Pane layoutX="368.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
+      <Pane layoutX="401.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
+      <Pane layoutX="426.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
+      <Pane layoutX="458.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
+      <Pane layoutX="483.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
+      <Pane layoutX="235.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;">
+         <children>
+            <Label prefHeight="51.0" prefWidth="318.0" text="Agregar productos">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <ImageView fitHeight="98.0" fitWidth="163.0" layoutX="543.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@imagenes/wifiPNG.png" />
+            <Image url="@imagenes/gifAddProductos.gif" />
          </image>
       </ImageView>
-      <Pane layoutX="576.0" prefHeight="519.0" prefWidth="21.0" style="-fx-background-color: #A5CAFF;" />
+      <Pane layoutX="123.0" prefHeight="519.0" prefWidth="19.0" style="-fx-background-color: #E1EDFF;" />
    </children>
 </AnchorPane>
