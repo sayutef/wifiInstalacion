@@ -13,3 +13,15 @@
     -fx-background-color: #0056b3;
     -fx-border-color: #0056b3;
 }
+
+.button
+{
+    -fx-background-color: #FFF;
+
+}
+.button:hover{
+    -fx-background-color: #COD5F7;
+}
+.button :pressed{
+    -fx-background-color: #73A3EF;
+}
