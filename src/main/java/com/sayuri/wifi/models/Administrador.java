@@ -1,4 +1,4 @@
 package com.sayuri.wifi.models;
 
-public class Producto {
+public class Administrador {
 }

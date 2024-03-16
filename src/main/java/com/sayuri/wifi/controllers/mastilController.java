@@ -4,11 +4,10 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 
-public class añadirProductoController {
+public class mastilController {
 
     @FXML
     private ResourceBundle resources;
@@ -17,13 +16,16 @@ public class añadirProductoController {
     private URL location;
 
     @FXML
-    private ComboBox<?> comboProductAdd;
+    private TextField textMastil;
 
     @FXML
-    private TextField textCostoProduct;
+    private TextField textCostoMastil;
 
     @FXML
-    private TextField textDescripcionProduct;
+    private TextField textMaterialMastil;
+
+    @FXML
+    private TextField textAlturaMastil;
 
     @FXML
     private Button bttonAdd;

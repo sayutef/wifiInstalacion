@@ -10,32 +10,38 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="519.0" prefWidth="716.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sayuri.wifi.controllers.añadirUsuarioController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="519.0" prefWidth="716.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sayuri.wifi.controllers.litebeamM5Controller">
     <children>
         <Pane prefHeight="519.0" prefWidth="123.0" style="-fx-background-color: #67B5EC;" />
-        <VBox layoutX="149.0" layoutY="97.0" prefHeight="327.0" prefWidth="339.0" spacing="25.0">
+        <VBox layoutX="151.0" layoutY="88.0" prefHeight="327.0" prefWidth="339.0" spacing="15.0">
             <children>
-                <Label text="Nombre del usuario">
+                <Label text="Nombre del litebeamM5 ">
                     <font>
                         <Font size="19.0" />
                     </font>
                 </Label>
-                <TextField fx:id="textNameUser" />
-                <Label text="Apellido del usuario">
+                <TextField fx:id="textName" />
+                <Label prefHeight="30.0" prefWidth="198.0" text="Costo del litebeamM5">
                     <font>
                         <Font size="20.0" />
                     </font>
                 </Label>
-                <TextField fx:id="textApellido" />
-                <Label text="Dirección">
+                <TextField fx:id="textCosto" />
+                <Label text="Tipo de conexión">
                     <font>
                         <Font size="19.0" />
                     </font>
                 </Label>
-                <TextField fx:id="textDireccion" />
+                <TextField fx:id="textTipoConexion" prefHeight="33.0" prefWidth="339.0" />
+                <Label text="Potencia de transmición">
+                    <font>
+                        <Font size="19.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="textPotencia" />
             </children>
         </VBox>
-        <Button fx:id="bttonAdd" layoutX="235.0" layoutY="452.0" mnemonicParsing="false" onMouseClicked="#bttonAdd" prefHeight="31.0" prefWidth="123.0" style="-fx-background-radius: 10px;" text="Agregar" />
+        <Button fx:id="bttonAdd" layoutX="234.0" layoutY="468.0" mnemonicParsing="false" onMouseClicked="#bttonAdd" prefHeight="31.0" prefWidth="123.0" style="-fx-background-radius: 10px;" text="Agregar" />
         <Pane layoutX="271.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
         <Pane layoutX="306.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
         <Pane layoutX="337.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
@@ -46,9 +52,9 @@
         <Pane layoutX="483.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
         <Pane layoutX="235.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;">
             <children>
-                <Label prefHeight="51.0" prefWidth="318.0" text="Agregar usuario">
+                <Label prefHeight="51.0" prefWidth="318.0" text="Agregar litebeamM5">
                     <font>
-                        <Font size="35.0" />
+                        <Font size="30.0" />
                     </font>
                 </Label>
             </children></Pane>
@@ -58,6 +64,6 @@
             </image>
         </ImageView>
         <Pane layoutX="123.0" prefHeight="519.0" prefWidth="19.0" style="-fx-background-color: #E1EDFF;" />
-      <Button fx:id="bttonReturn" layoutX="434.0" layoutY="452.0" mnemonicParsing="false" onMouseClicked="#bttonReturn" prefHeight="31.0" prefWidth="123.0" style="-fx-background-radius: 10px;" text="Volver" />
+        <Button fx:id="bttonReturn" layoutX="414.0" layoutY="468.0" mnemonicParsing="false" onMouseClicked="#bttonReturn" prefHeight="31.0" prefWidth="123.0" style="-fx-background-radius: 10px;" text="Volver" />
     </children>
 </AnchorPane>
