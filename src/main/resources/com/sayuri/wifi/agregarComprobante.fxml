@@ -21,12 +21,12 @@
                     </font>
                 </Label>
                 <TextField fx:id="textNameUser" />
-                <Label text="Numero de paquete">
+                <Label text="Nombre de paquete">
                     <font>
                         <Font size="20.0" />
                     </font>
                 </Label>
-                <TextField fx:id="textNumPaquete" />
+                <TextField fx:id="textNamePaquete" />
                 <Label text="Total que pago">
                     <font>
                         <Font size="19.0" />

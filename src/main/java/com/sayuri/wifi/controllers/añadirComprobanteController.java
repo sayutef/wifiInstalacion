@@ -19,7 +19,7 @@ public class añadirComprobanteController {
     private TextField textNameUser;
 
     @FXML
-    private TextField textNumPaquete;
+    private TextField textNamePaquete;
 
     @FXML
     private TextField textTotalPagar;
