@@ -16,7 +16,7 @@ public class añadirTecnicosController {
     private URL location;
 
     @FXML
-    private TextField textNombreTecnico;
+    private TextField textNameTecnico;
 
     @FXML
     private TextField textApellido;
@@ -28,7 +28,15 @@ public class añadirTecnicosController {
     private Button bttonAdd;
 
     @FXML
+    private Button bttonReturn;
+
+    @FXML
     void bttonAdd(MouseEvent event) {
+
+    }
+
+    @FXML
+    void bttonReturn(MouseEvent event) {
 
     }
 
