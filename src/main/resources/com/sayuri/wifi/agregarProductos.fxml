@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
@@ -13,29 +14,29 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="519.0" prefWidth="716.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sayuri.wifi.controllers.añadirProductoController">
    <children>
       <Pane prefHeight="519.0" prefWidth="123.0" style="-fx-background-color: #67B5EC;" />
-      <VBox layoutX="149.0" layoutY="97.0" prefHeight="327.0" prefWidth="339.0" spacing="25.0">
+      <VBox layoutX="149.0" layoutY="97.0" prefHeight="327.0" prefWidth="339.0" spacing="15.0">
          <children>
-            <Label text="Cantidad de productos">
+            <Label text="Eliga producto a agregar">
                <font>
                   <Font size="19.0" />
                </font>
             </Label>
-            <TextField />
-            <Label text="Nombre del producto">
+            <ComboBox fx:id="comboProductAdd" prefHeight="31.0" prefWidth="326.0" />
+            <Label text="Costo del producto">
                <font>
                   <Font size="20.0" />
                </font>
             </Label>
-            <TextField />
-            <Label text="Costo">
+            <TextField fx:id="textCostoProduct" />
+            <Label text="Descripcion">
                <font>
                   <Font size="19.0" />
                </font>
             </Label>
-            <TextField />
+            <TextField fx:id="textDescripcionProduct" prefHeight="78.0" prefWidth="339.0" />
          </children>
       </VBox>
-      <Button layoutX="235.0" layoutY="452.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="123.0" text="agregar" />
+      <Button fx:id="bttonAdd" layoutX="235.0" layoutY="452.0" mnemonicParsing="false" onMouseClicked="#bttonAdd" prefHeight="31.0" prefWidth="123.0" style="-fx-background-radius: 10px;" text="Agregar" />
       <Pane layoutX="271.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
       <Pane layoutX="306.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
       <Pane layoutX="337.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
@@ -58,5 +59,6 @@
          </image>
       </ImageView>
       <Pane layoutX="123.0" prefHeight="519.0" prefWidth="19.0" style="-fx-background-color: #E1EDFF;" />
+      <Button fx:id="bttonReturn" layoutX="443.0" layoutY="452.0" mnemonicParsing="false" onMouseClicked="#bttonReturn" prefHeight="31.0" prefWidth="123.0" style="-fx-background-radius: 10px;" text="Volver" />
    </children>
 </AnchorPane>
