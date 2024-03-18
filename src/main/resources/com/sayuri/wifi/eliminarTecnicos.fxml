@@ -10,38 +10,38 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="485.0" prefWidth="689.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sayuri.wifi.controllers.removerTecnicoController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="519.0" prefWidth="716.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sayuri.wifi.controllers.removerTecnicoController">
    <children>
-      <Pane prefHeight="485.0" prefWidth="689.0" style="-fx-background-color: #ADD7F3;">
+      <Pane layoutY="-1.0" prefHeight="519.0" prefWidth="716.0" style="-fx-background-color: #ADD7F3;">
          <children>
-            <Label layoutX="226.0" layoutY="36.0" text="Eliminar Técnicos " textFill="#fffafa">
+            <Label layoutX="206.0" layoutY="44.0" text="Eliminar técnico" textFill="#fcfcfc">
                <font>
-                  <Font name="Corbel Light" size="33.0" />
+                  <Font size="29.0" />
                </font>
             </Label>
-            <VBox layoutX="85.0" layoutY="135.0" prefHeight="200.0" prefWidth="310.0" spacing="15.0">
+            <VBox layoutX="108.0" layoutY="148.0" prefHeight="200.0" prefWidth="380.0" spacing="25.0">
                <children>
-                  <Label text="Escriba el nombre del técnico" textFill="#fcfafa">
+                  <Label text="Ingrese el nombre del técnico a eliminar" textFill="WHITE">
                      <font>
-                        <Font size="22.0" />
+                        <Font size="19.0" />
                      </font>
                   </Label>
-                  <TextField />
-                  <Label text="Escriba el telefono del técnico" textFill="#fcf8f8">
+                  <TextField fx:id="textDetelName" />
+                  <Label text="Ingrese su telefono" textFill="WHITE">
                      <font>
-                        <Font size="21.0" />
+                        <Font size="20.0" />
                      </font>
                   </Label>
-                  <TextField />
+                  <TextField fx:id="textDetelPhone" />
                </children>
             </VBox>
-            <Button layoutX="330.0" layoutY="378.0" mnemonicParsing="false" text="Eliminar" />
-            <ImageView fitHeight="77.0" fitWidth="80.0" layoutX="475.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <Button fx:id="bttonDetel" layoutX="146.0" layoutY="429.0" mnemonicParsing="false" onMouseClicked="#bttonDetel" prefHeight="46.0" prefWidth="103.0" style="-fx-background-radius: 10px;" text="Eliminar" />
+            <ImageView fitHeight="80.0" fitWidth="127.0" layoutX="473.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../../Documents/Interfaces proyecto multidiciplinario/imsgenTecnico.png" />
+                  <Image url="@imagenes/remover.png" />
                </image>
             </ImageView>
+            <Button fx:id="bttonReturn" layoutX="394.0" layoutY="429.0" mnemonicParsing="false" onMouseClicked="#bttonReturn" prefHeight="46.0" prefWidth="103.0" style="-fx-background-radius: 10px;" text="Volver" />
          </children>
       </Pane>
    </children>

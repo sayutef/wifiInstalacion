@@ -1,5 +1,6 @@
 package com.sayuri.wifi;
 
+import com.sayuri.wifi.models.Administrador;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -13,6 +14,12 @@ import java.io.IOException;
 public class HelloApplication extends Application {
     private static Stage stageView;
     private static Stage stageRoot;
+
+    private static Administrador admin = new Administrador();
+    public static Administrador getAdmin(){return admin;}
+    public static void setAdmin(Administrador newAdmin){
+        admin = newAdmin;
+    }
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
