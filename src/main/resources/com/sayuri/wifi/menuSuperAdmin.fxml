@@ -1,14 +1,178 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.sayuri.wifi.controllers.menuSuperAdminController"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="877.0" prefWidth="1374.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sayuri.wifi.controllers.menuSuperAdminController">
+    <children>
+        <Pane prefHeight="161.0" prefWidth="1374.0" style="-fx-background-color: #1F00F0;">
+            <children>
+                <VBox layoutX="14.0" layoutY="31.0" prefHeight="99.0" prefWidth="493.0">
+                    <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="38.0" prefWidth="493.0" text="Mc Ingeneria " textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="30.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="36.0" prefWidth="542.0" text="Telecomunicaciones &amp; Seguridad" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="30.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </VBox>
+                <VBox layoutX="632.0" layoutY="62.0" prefHeight="99.0" prefWidth="132.0" />
+                <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="1151.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@imagenes/public-wifi-5403.gif" />
+                    </image>
+                </ImageView>
+            </children>
+        </Pane>
+        <GridPane layoutX="127.0" layoutY="310.0" prefHeight="483.0" prefWidth="1098.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Button fx:id="bttonAddTec" contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#bttonAddTec" prefHeight="134.0" prefWidth="269.0" stylesheets="@../../../../resources/com/sayuri/wifi/css/bttonAddPaquete.css" text="Agregar Técnico ">
+                    <graphic>
+                        <ImageView fitHeight="114.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imagenes/icons8-trabajadores-masculinos-100.png" />
+                            </image>
+                        </ImageView>
+                    </graphic></Button>
+                <Button fx:id="bttonDelateTec" contentDisplay="TOP" layoutX="10.0" layoutY="16.0" mnemonicParsing="false" onMouseClicked="#bttonDelateTec" prefHeight="134.0" prefWidth="269.0" stylesheets="@../../../../resources/com/sayuri/wifi/css/bttonAddPaquete.css" text="Eliminar Técnico " GridPane.columnIndex="1">
+                    <graphic>
+                        <ImageView fitHeight="114.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imagenes/borrar-usuario.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button fx:id="bttonDelatePaquete" contentDisplay="TOP" layoutX="10.0" layoutY="16.0" mnemonicParsing="false" onMouseClicked="#bttonDelatePaquete" prefHeight="134.0" prefWidth="269.0" stylesheets="@../../../../resources/com/sayuri/wifi/css/bttonAddPaquete.css" text="Eliminar Paquete" GridPane.rowIndex="1">
+                    <graphic>
+                        <ImageView fitHeight="114.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imagenes/bolsa-de-la-compra1.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button fx:id="bttonSeePaquete" contentDisplay="TOP" layoutX="10.0" layoutY="16.0" mnemonicParsing="false" onMouseClicked="#bttonSeePaquete" prefHeight="134.0" prefWidth="269.0" stylesheets="@../../../../resources/com/sayuri/wifi/css/bttonAddPaquete.css" text="Ver Paquetes" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <graphic>
+                        <ImageView fitHeight="114.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imagenes/desarrollo-de-producto.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button fx:id="bttonSeeTecnicos" contentDisplay="TOP" layoutX="10.0" layoutY="16.0" mnemonicParsing="false" onMouseClicked="#bttonSeeTecnicos" prefHeight="134.0" prefWidth="269.0" stylesheets="@../../../../resources/com/sayuri/wifi/css/bttonAddPaquete.css" text="Ver Técnicos" GridPane.columnIndex="2">
+                    <graphic>
+                        <ImageView fitHeight="114.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imagenes/vista.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button fx:id="bttonAddPaquete" contentDisplay="TOP" layoutX="10.0" layoutY="16.0" mnemonicParsing="false" onMouseClicked="#bttonAddPaquete" prefHeight="134.0" prefWidth="269.0" stylesheets="@../../../../resources/com/sayuri/wifi/css/bttonAddPaquete.css" text="Agregar Paquete " GridPane.columnIndex="3">
+                    <graphic>
+                        <ImageView fitHeight="114.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imagenes/bolsa-de-la-compra.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button fx:id="bttonSeeUser" contentDisplay="TOP" layoutX="20.0" layoutY="26.0" mnemonicParsing="false" onMouseClicked="#bttonSeeUser" prefHeight="134.0" prefWidth="269.0" stylesheets="@../../../../resources/com/sayuri/wifi/css/bttonAddPaquete.css" text="Ver Usuarios" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                    <graphic>
+                        <ImageView fitHeight="114.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imagenes/ver.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button fx:id="bttonDelateUser" contentDisplay="TOP" layoutX="10.0" layoutY="16.0" mnemonicParsing="false" onMouseClicked="#bttonDelateUser" prefHeight="134.0" prefWidth="269.0" stylesheets="@../../../../resources/com/sayuri/wifi/css/bttonAddPaquete.css" text="Eliminar Usuario" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                    <graphic>
+                        <ImageView fitHeight="114.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imagenes/eliminar-usuario.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button fx:id="bttonAddUser" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#bttonAddUser" prefHeight="134.0" prefWidth="269.0" stylesheets="@../../../../resources/com/sayuri/wifi/css/bttonAddPaquete.css" text="Agregar Usuario" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                    <graphic>
+                        <ImageView fitHeight="114.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imagenes/agregar-usuario.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button fx:id="bttonDelateProductos" contentDisplay="TOP" layoutX="20.0" layoutY="26.0" mnemonicParsing="false" onMouseClicked="#bttonDelateProductos" prefHeight="134.0" prefWidth="269.0" stylesheets="@../../../../resources/com/sayuri/wifi/css/bttonAddPaquete.css" text="Eliminar Producto" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                    <graphic>
+                        <ImageView fitHeight="114.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imagenes/eliminar.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button fx:id="bttonAddProductos" contentDisplay="TOP" layoutX="20.0" layoutY="20.0" mnemonicParsing="false" onMouseClicked="#bttonAddProductos" prefHeight="134.0" prefWidth="269.0" stylesheets="@../../../../resources/com/sayuri/wifi/css/bttonAddPaquete.css" text="Agregar Producto" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                    <graphic>
+                        <ImageView fitHeight="114.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imagenes/anadir.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button fx:id="bttonSeeProduct" contentDisplay="TOP" layoutX="834.0" layoutY="177.0" mnemonicParsing="false" onMouseClicked="#bttonSeeProduct" prefHeight="134.0" prefWidth="269.0" stylesheets="@../../../../resources/com/sayuri/wifi/css/bttonAddPaquete.css" text="Ver Producto" GridPane.rowIndex="2">
+                    <graphic>
+                        <ImageView fitHeight="114.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@imagenes/product_13335269.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+            </children>
+        </GridPane>
+        <VBox layoutX="442.0" layoutY="214.0" prefHeight="54.0" prefWidth="467.0">
+            <children>
+                <Label prefHeight="54.0" prefWidth="518.0" text="Menú SúperAdministrador" textFill="#1500ff">
+                    <font>
+                        <Font name="System Bold" size="37.0" />
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+        <Button fx:id="bttonSalir" layoutX="1190.0" layoutY="805.0" mnemonicParsing="false" onMouseClicked="#bttonSalir" prefWidth="142.0" style="-fx-background-color: blue; -fx-background-radius: 15;" text="Salir" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="19.0" />
+            </font>
+        </Button>
+    </children>
 </AnchorPane>
