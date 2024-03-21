@@ -112,12 +112,12 @@ public class menuSuperAdminController {
 
     @FXML
     void bttonSeeTecnicos(MouseEvent event) {
-
+        HelloApplication.newStage("verEmpleados","Ver Empleados");
     }
 
     @FXML
     void bttonSeeUser(MouseEvent event) {
-        ;
+
     }
 
     @FXML
