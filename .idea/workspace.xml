@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="commit Agregar Paquete">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="commit Generar Comprobante">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirComprobanteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirComprobanteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Administrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Administrador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Comprobante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Comprobante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirUsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirUsuarioController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Modem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Modem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/agregarComprobante-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/agregarComprobante-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/agregarUsuario.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/agregarUsuario.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +156,7 @@
       <workItem from="1710903564778" duration="126000" />
       <workItem from="1710903721978" duration="99000" />
       <workItem from="1710903845734" duration="475000" />
-      <workItem from="1710987060935" duration="11428000" />
+      <workItem from="1710987060935" duration="13570000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit">
       <option name="closed" value="true" />
@@ -225,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711004165115</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit Generar Comprobante">
+      <option name="closed" value="true" />
+      <created>1711010452733</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711010452735</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +245,8 @@
     <MESSAGE value="commit menu superadmin" />
     <MESSAGE value="commit inicio Sesion" />
     <MESSAGE value="commit Agregar Paquete" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit Agregar Paquete" />
+    <MESSAGE value="commit Generar Comprobante" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit Generar Comprobante" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

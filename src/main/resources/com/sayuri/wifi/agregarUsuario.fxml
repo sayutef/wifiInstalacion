@@ -10,54 +10,50 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="519.0" prefWidth="716.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sayuri.wifi.controllers.añadirUsuarioController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="669.0" prefWidth="716.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sayuri.wifi.controllers.añadirUsuarioController">
     <children>
-        <Pane prefHeight="519.0" prefWidth="123.0" style="-fx-background-color: #67B5EC;" />
-        <VBox layoutX="149.0" layoutY="97.0" prefHeight="327.0" prefWidth="339.0" spacing="25.0">
+        <Pane prefHeight="109.0" prefWidth="716.0" style="-fx-background-color: #67B5EC;">
             <children>
-                <Label text="Nombre del usuario">
+                <Label layoutX="45.0" layoutY="23.0" text="Agregar Usuario" textFill="WHITE">
                     <font>
-                        <Font size="19.0" />
+                        <Font name="System Bold" size="43.0" />
                     </font>
                 </Label>
-                <TextField fx:id="textNameUser" />
-                <Label text="Apellido del usuario">
+            <ImageView fitHeight="94.0" fitWidth="95.0" layoutX="576.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/chico.png" />
+               </image>
+            </ImageView>
+            </children></Pane>
+        <VBox layoutX="189.0" layoutY="124.0" prefHeight="396.0" prefWidth="339.0" spacing="25.0">
+            <children>
+                <Label text="Nombre de usuario">
                     <font>
-                        <Font size="20.0" />
+                        <Font name="System Bold" size="25.0" />
                     </font>
                 </Label>
-                <TextField fx:id="textApellido" />
-                <Label text="Dirección">
+                <TextField fx:id="textNameUser" prefHeight="51.0" prefWidth="339.0" style="-fx-background-radius: 15;" />
+                <Label text="Apellido:">
                     <font>
-                        <Font size="19.0" />
+                        <Font name="System Bold" size="25.0" />
                     </font>
                 </Label>
-                <TextField fx:id="textDireccion" />
+                <TextField fx:id="textApellidoUser" prefHeight="49.0" prefWidth="339.0" style="-fx-background-radius: 15;" />
+                <Label text="Dirección:">
+                    <font>
+                        <Font name="System Bold" size="25.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="textDireccion" prefHeight="50.0" prefWidth="339.0" style="-fx-background-radius: 15;" />
             </children>
         </VBox>
-        <Button fx:id="bttonAdd" layoutX="235.0" layoutY="452.0" mnemonicParsing="false" onMouseClicked="#bttonAdd" prefHeight="31.0" prefWidth="123.0" style="-fx-background-radius: 10px;" text="Agregar" />
-        <Pane layoutX="271.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
-        <Pane layoutX="306.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
-        <Pane layoutX="337.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
-        <Pane layoutX="368.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
-        <Pane layoutX="401.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
-        <Pane layoutX="426.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
-        <Pane layoutX="458.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
-        <Pane layoutX="483.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;" />
-        <Pane layoutX="235.0" layoutY="14.0" prefHeight="59.0" prefWidth="49.0" style="-fx-background-radius: 43; -fx-background-color: #DBEAFF;">
-            <children>
-                <Label prefHeight="51.0" prefWidth="318.0" text="Agregar usuario">
-                    <font>
-                        <Font size="35.0" />
-                    </font>
-                </Label>
-            </children></Pane>
-        <ImageView fitHeight="98.0" fitWidth="163.0" layoutX="543.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-            <image>
-                <Image url="@imagenes/gifAddProductos.gif" />
-            </image>
-        </ImageView>
-        <Pane layoutX="123.0" prefHeight="519.0" prefWidth="19.0" style="-fx-background-color: #E1EDFF;" />
-      <Button fx:id="bttonReturn" layoutX="434.0" layoutY="452.0" mnemonicParsing="false" onMouseClicked="#bttonReturn" prefHeight="31.0" prefWidth="123.0" style="-fx-background-radius: 10px;" text="Volver" />
+        <Button fx:id="bttonAdd" layoutX="129.0" layoutY="558.0" mnemonicParsing="false" onMouseClicked="#bttonAdd" prefHeight="60.0" prefWidth="180.0" style="-fx-background-radius: 10px; -fx-background-color: green;" text="Agregar" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font></Button>
+        <Button fx:id="bttonVolver" layoutX="454.0" layoutY="558.0" mnemonicParsing="false" onMouseClicked="#bttonVolver" prefHeight="60.0" prefWidth="180.0" style="-fx-background-radius: 10px; -fx-background-color: orange;" text="Volver" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font></Button>
     </children>
 </AnchorPane>
