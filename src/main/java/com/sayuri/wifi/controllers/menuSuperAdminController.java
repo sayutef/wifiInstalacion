@@ -87,7 +87,7 @@ public class menuSuperAdminController {
 
     @FXML
     void bttonDelateTec(MouseEvent event) {
-       ;
+       HelloApplication.newStage("eliminarTecnicos","Eliminar Tecnicos");
     }
 
     @FXML
