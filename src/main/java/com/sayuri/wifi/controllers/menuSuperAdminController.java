@@ -92,7 +92,7 @@ public class menuSuperAdminController {
 
     @FXML
     void bttonDelateUser(MouseEvent event) {
-        ;
+        HelloApplication.newStage("eliminarUsuario","Eliminar Usuarios");
     }
 
     @FXML
