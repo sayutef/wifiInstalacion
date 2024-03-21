@@ -107,12 +107,12 @@ public class menuSuperAdminController {
 
     @FXML
     void bttonSeeProduct(MouseEvent event) {
-        ;
+        HelloApplication.newStage("verProductos","Ver Productos");
     }
 
     @FXML
     void bttonSeeTecnicos(MouseEvent event) {
-       ;
+
     }
 
     @FXML
