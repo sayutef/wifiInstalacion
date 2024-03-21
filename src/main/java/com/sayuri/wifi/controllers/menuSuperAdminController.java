@@ -117,7 +117,7 @@ public class menuSuperAdminController {
 
     @FXML
     void bttonSeeUser(MouseEvent event) {
-
+        HelloApplication.newStage("verUsuario","Ver Usuarios");
     }
 
     @FXML
