@@ -102,7 +102,7 @@ public class menuSuperAdminController {
 
     @FXML
     void bttonSeePaquete(MouseEvent event) {
-       ;
+       HelloApplication.newStage("verPaquetesWifi","Ver Paquetes");
     }
 
     @FXML
