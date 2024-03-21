@@ -67,32 +67,32 @@ public class menuSuperAdminController {
 
     @FXML
     void bttonAddTec(MouseEvent event) {
-        HelloApplication.newStage("agregarTecnicos","Agregar Tecnicos");
+        HelloApplication.newStage("agregarTecnicos","Agregar Tecnico");
     }
 
     @FXML
     void bttonAddUser(MouseEvent event) {
-        HelloApplication.newStage("agregarUsuario","Agregar Usuario");
+       ;
     }
 
     @FXML
     void bttonDelatePaquete(MouseEvent event) {
-        HelloApplication.newStage("agregarPaquetes","Agregar Paquetes");
+     ;
     }
 
     @FXML
     void bttonDelateProductos(MouseEvent event) {
-        HelloApplication.newStage("eliminarProductos","Eliminar Productos");
+        ;
     }
 
     @FXML
     void bttonDelateTec(MouseEvent event) {
-        HelloApplication.newStage("eliminarTecnicos","EliminarTecnicos");
+       ;
     }
 
     @FXML
     void bttonDelateUser(MouseEvent event) {
-        HelloApplication.newStage("eliminarUsuario","Eliminar Usuario");
+        ;
     }
 
     @FXML
@@ -102,22 +102,22 @@ public class menuSuperAdminController {
 
     @FXML
     void bttonSeePaquete(MouseEvent event) {
-        HelloApplication.newStage("verPaquetes","Ver Paquetes");
+       ;
     }
 
     @FXML
     void bttonSeeProduct(MouseEvent event) {
-        HelloApplication.newStage("verProductos","Ver Productos");
+        ;
     }
 
     @FXML
     void bttonSeeTecnicos(MouseEvent event) {
-        HelloApplication.newStage("verEmpleados","Ver Empleados");
+       ;
     }
 
     @FXML
     void bttonSeeUser(MouseEvent event) {
-        HelloApplication.newStage("verUsuario","Ver Usuario");
+        ;
     }
 
     @FXML

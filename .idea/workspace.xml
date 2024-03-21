@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="commit add menuSuperAdmin">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirTecnicosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirTecnicosController.java" afterDir="false" />
+    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="commit addTecnico">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Modem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Modem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Tecnico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Tecnico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/agregarTecnicos.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/agregarTecnicos.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +153,7 @@
       <workItem from="1710903564778" duration="126000" />
       <workItem from="1710903721978" duration="99000" />
       <workItem from="1710903845734" duration="475000" />
-      <workItem from="1710987060935" duration="16206000" />
+      <workItem from="1710987060935" duration="16300000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit">
       <option name="closed" value="true" />
@@ -247,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711012654198</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="commit addTecnico">
+      <option name="closed" value="true" />
+      <created>1711013992735</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711013992735</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +269,8 @@
     <MESSAGE value="commit Generar Comprobante" />
     <MESSAGE value="commit Añadir Usuario" />
     <MESSAGE value="commit add menuSuperAdmin" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit add menuSuperAdmin" />
+    <MESSAGE value="commit addTecnico" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit addTecnico" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
