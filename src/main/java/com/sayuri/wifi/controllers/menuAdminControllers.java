@@ -2,9 +2,12 @@ package com.sayuri.wifi.controllers;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import com.sayuri.wifi.HelloApplication;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.AnchorPane;
 
 public class menuAdminControllers {
 
@@ -43,20 +46,23 @@ public class menuAdminControllers {
 
     @FXML
     private Button bttonSalir;
+    @FXML private AnchorPane panel;
 
     @FXML
     void bttonComprobante(MouseEvent event) {
-
+        HelloApplication.newStage("agregarComprobante-view","Menú Comprobante");
     }
 
     @FXML
     void bttonDelateProducto(MouseEvent event) {
-
+        HelloApplication.newStage("eliminarProducto","Eliminar Producto");
     }
 
     @FXML
     void bttonDelateReporte(MouseEvent event) {
 
+    }
+    public void bttonAdd(MouseEvent mouseEvent) {
     }
 
     @FXML
@@ -71,7 +77,7 @@ public class menuAdminControllers {
 
     @FXML
     void bttonSalir(MouseEvent event) {
-
+        HelloApplication.getStageView().close();
     }
 
     @FXML
@@ -81,7 +87,7 @@ public class menuAdminControllers {
 
     @FXML
     void bttonSeeTecnicos(MouseEvent event) {
-
+        HelloApplication.newStage("verEmpleados","Menú Ver Empleados.");
     }
 
     @FXML
@@ -91,16 +97,18 @@ public class menuAdminControllers {
 
     @FXML
     void initialize() {
-        assert bttonSeeTecnicos != null : "fx:id=\"bttonSeeTecnicos\" was not injected: check your FXML file 'menuAdmi.fxml'.";
-        assert bttonAddProducto != null : "fx:id=\"bttonAddProducto\" was not injected: check your FXML file 'menuAdmi.fxml'.";
-        assert bttonDelateProducto != null : "fx:id=\"bttonDelateProducto\" was not injected: check your FXML file 'menuAdmi.fxml'.";
-        assert bttonImprimir != null : "fx:id=\"bttonImprimir\" was not injected: check your FXML file 'menuAdmi.fxml'.";
-        assert bttonComprobante != null : "fx:id=\"bttonComprobante\" was not injected: check your FXML file 'menuAdmi.fxml'.";
-        assert bttonSeeUser != null : "fx:id=\"bttonSeeUser\" was not injected: check your FXML file 'menuAdmi.fxml'.";
-        assert bttonSeeOrdenes != null : "fx:id=\"bttonSeeOrdenes\" was not injected: check your FXML file 'menuAdmi.fxml'.";
-        assert bttonGenerarReporte != null : "fx:id=\"bttonGenerarReporte\" was not injected: check your FXML file 'menuAdmi.fxml'.";
-        assert bttonDelateReporte != null : "fx:id=\"bttonDelateReporte\" was not injected: check your FXML file 'menuAdmi.fxml'.";
-        assert bttonSalir != null : "fx:id=\"bttonSalir\" was not injected: check your FXML file 'menuAdmi.fxml'.";
+        assert bttonSeeTecnicos != null : "fx:id=\"bttonSeeTecnicos\" was not injected: check your FXML file 'menuAdmin.fxml'.";
+        assert bttonAddProducto != null : "fx:id=\"bttonAddProducto\" was not injected: check your FXML file 'menuAdmin.fxml'.";
+        assert bttonDelateProducto != null : "fx:id=\"bttonDelateProducto\" was not injected: check your FXML file 'menuAdmin.fxml'.";
+        assert bttonImprimir != null : "fx:id=\"bttonImprimir\" was not injected: check your FXML file 'menuAdmin.fxml'.";
+        assert bttonComprobante != null : "fx:id=\"bttonComprobante\" was not injected: check your FXML file 'menuAdmin.fxml'.";
+        assert bttonSeeUser != null : "fx:id=\"bttonSeeUser\" was not injected: check your FXML file 'menuAdmin.fxml'.";
+        assert bttonSeeOrdenes != null : "fx:id=\"bttonSeeOrdenes\" was not injected: check your FXML file 'menuAdmin.fxml'.";
+        assert bttonGenerarReporte != null : "fx:id=\"bttonGenerarReporte\" was not injected: check your FXML file 'menuAdmin.fxml'.";
+        assert bttonDelateReporte != null : "fx:id=\"bttonDelateReporte\" was not injected: check your FXML file 'menuAdmin.fxml'.";
+        assert bttonSalir != null : "fx:id=\"bttonSalir\" was not injected: check your FXML file 'menuAdmin.fxml'.";
 
     }
+
+
 }
