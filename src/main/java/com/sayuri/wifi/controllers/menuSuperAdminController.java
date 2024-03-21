@@ -77,12 +77,12 @@ public class menuSuperAdminController {
 
     @FXML
     void bttonDelatePaquete(MouseEvent event) {
-     ;
+     HelloApplication.newStage("eliminarPaquetes","Eliminar Usuarios");
     }
 
     @FXML
     void bttonDelateProductos(MouseEvent event) {
-        ;
+
     }
 
     @FXML
