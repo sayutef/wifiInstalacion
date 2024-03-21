@@ -9,12 +9,17 @@ public class Administrador {
         return ListPersona;
     }
     private ArrayList<Paquete> listPaquetes  = new ArrayList<>();
+    private ArrayList<Comprobante> listComprobante = new ArrayList<>();
 
+    public ArrayList<Comprobante> getListComprobante() {
+        return listComprobante;
+    }
+
+    public boolean addComprobante (Comprobante comprobante){return listComprobante.add(comprobante);}
     public ArrayList<Paquete> getListPaquetes() {
         return listPaquetes;
     }
     public boolean addPaquete (Paquete paquete){return listPaquetes.add(paquete);}
-
     public void setListPersona(ArrayList<Persona> listPersona) {
         ListPersona = listPersona;
     }
