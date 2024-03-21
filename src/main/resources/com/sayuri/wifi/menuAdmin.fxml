@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="840.0" prefWidth="1361.0" stylesheets="@../../../../java/com/sayuri/wifi/css/menuAdmin.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sayuri.wifi.controllers.menuAdminControllers">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="840.0" prefWidth="1361.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sayuri.wifi.controllers.menuAdminControllers">
    <children>
       <Pane prefHeight="200.0" prefWidth="1361.0" style="-fx-background-color: #0C00E5;">
          <children>
@@ -53,7 +53,7 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button fx:id="bttonSeeTecnicos" contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#bttonSeeTecnicos" prefHeight="146.0" prefWidth="289.0" text="Ver Tecnicos">
+            <Button fx:id="bttonSeeTecnicos" contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#bttonSeeTecnicos" prefHeight="130.0" prefWidth="289.0" text="Ver Tecnicos">
                <graphic>
                   <ImageView fitHeight="98.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
                      <image>

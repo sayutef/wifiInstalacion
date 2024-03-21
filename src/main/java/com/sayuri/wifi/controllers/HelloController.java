@@ -39,30 +39,44 @@ public class HelloController {
         String usuario = textFieldUsuario.getText();
         String contraseña = textFieldPwd.getText();
 
-        switch (comboxUsuario.getValue()) {
-            case "Admin":
-                Admin admin = new Admin();
-                if (usuario.equals(admin.getUser()) && contraseña.equals(admin.getContraseña())) {
-                    HelloApplication.newStage("menuAdmin", "Menú Admin");
-                }
-                break;
-            case "SuperAdmin":
-                SuperAdmin superAdmin = new SuperAdmin();
-                if (usuario.equals(superAdmin.getUser()) && contraseña.equals(superAdmin.getContraseña())) {
-                    HelloApplication.newStage("menuSuperAdmin", "Menú Admin");
-                }
-                break;
-            default:
-                break;
+        if (comboxUsuario.getValue() != null) {
+            switch (comboxUsuario.getValue()) {
+                case "Admin":
+                    Admin admin = new Admin();
+                    if (usuario.equals(admin.getUser()) && contraseña.equals(admin.getContraseña())) {
+                        HelloApplication.newStage("menuAdmin", "Menú Admin");
+                    } else {
+                        mostrarAlerta("Error", "No se pudo iniciar sesión", "Usuario o contraseña incorrecta", Alert.AlertType.ERROR);
+                    }
+                    break;
+                case "SuperAdmin":
+                    SuperAdmin superAdmin = new SuperAdmin();
+                    if (usuario.equals(superAdmin.getUser()) && contraseña.equals(superAdmin.getContraseña())) {
+                        HelloApplication.newStage("menuSuperAdmin", "Menú SuperAdmin");
+                    } else {
+                        mostrarAlerta("Error", "No se pudo iniciar sesión", "Usuario o contraseña incorrecta", Alert.AlertType.ERROR);
+                    }
+                    break;
+                default:
+                    break;
+            }
+        } else {
+            mostrarAlerta("Error", "No se ha seleccionado ningún usuario", "Seleccione un usuario", Alert.AlertType.ERROR);
         }
-
     }
 
     @FXML
-    void bttonSalir(MouseEvent event) {
+    void bttonSalir() {
 
     }
 
+    private void mostrarAlerta(String titulo, String encabezado, String contenido, Alert.AlertType tipo) {
+        Alert alert = new Alert(tipo);
+        alert.setTitle(titulo);
+        alert.setHeaderText(encabezado);
+        alert.setContentText(contenido);
+        alert.showAndWait();
+    }
     @FXML
     void initialize() {
         comboxUsuario.getItems().addAll("Admin", "SuperAdmin");

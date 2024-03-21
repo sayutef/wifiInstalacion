@@ -2,6 +2,7 @@ module com.sayuri.wifi {
     requires javafx.controls;
     requires javafx.fxml;
     requires org.kordamp.bootstrapfx.core;
+    requires kotlin.stdlib;
 
 
     opens com.sayuri.wifi to javafx.fxml;

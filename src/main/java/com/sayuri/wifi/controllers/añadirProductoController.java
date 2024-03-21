@@ -6,6 +6,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 
 public class añadirProductoController {
@@ -17,7 +18,7 @@ public class añadirProductoController {
     private URL location;
 
     @FXML
-    private ComboBox<?> comboProductAdd;
+    private ComboBox<String> comboProductAdd;
 
     @FXML
     private TextField textCostoProduct;
@@ -43,6 +44,6 @@ public class añadirProductoController {
 
     @FXML
     void initialize() {
-
+        comboProductAdd.getItems().addAll("LitebeamM5", "Maastil","Modem");
     }
 }
