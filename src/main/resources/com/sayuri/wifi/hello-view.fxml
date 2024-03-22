@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="644.0" prefWidth="809.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="644.0" prefWidth="809.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sayuri.wifi.controllers.HelloController">
    <children>
       <ImageView fitHeight="541.0" fitWidth="855.0" layoutX="-1.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -29,12 +29,12 @@
             <Font size="17.0" />
          </font>
       </Label>
-      <Button layoutX="160.0" layoutY="414.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="187.0" style="-fx-background-radius: 10PX; -fx-background-color: #F2643A;" text="Administrador" textFill="WHITE">
+      <Button fx:id="bttonAdmi" layoutX="160.0" layoutY="414.0" mnemonicParsing="false" onMouseClicked="#bttonAdmi" prefHeight="66.0" prefWidth="187.0" style="-fx-background-radius: 10PX; -fx-background-color: #F2643A;" text="Administrador" textFill="WHITE">
          <font>
             <Font name="Arial" size="15.0" />
          </font>
       </Button>
-      <Button layoutX="449.0" layoutY="414.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="187.0" style="-fx-background-radius: 10PX; -fx-background-color: #2EF03D;" text="SuperAdministrador" textFill="WHITE">
+      <Button fx:id="bttonSuperAdmi" layoutX="449.0" layoutY="414.0" mnemonicParsing="false" onMouseClicked="#bttonSuperAdmi" prefHeight="66.0" prefWidth="187.0" style="-fx-background-radius: 10PX; -fx-background-color: #2EF03D;" text="SuperAdministrador" textFill="WHITE">
          <font>
             <Font name="Arial" size="15.0" />
          </font>
