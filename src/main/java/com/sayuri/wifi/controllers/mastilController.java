@@ -73,6 +73,7 @@ public class mastilController {
 
     @FXML
     void bttonReturn(MouseEvent event) {
+        HelloApplication.getStageView().close();
     }
 
     @FXML

@@ -52,6 +52,7 @@ public class modemController {
 
     @FXML
     void bttonReturn(MouseEvent event) {
+        HelloApplication.getStageView().close();
     }
 
     private void mostrarAlerta(String titulo, String encabezado, String contenido, Alert.AlertType tipo) {
