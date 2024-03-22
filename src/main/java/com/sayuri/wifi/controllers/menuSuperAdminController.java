@@ -62,7 +62,7 @@ public class menuSuperAdminController {
 
     @FXML
     void bttonAddProductos(MouseEvent event) {
-
+        HelloApplication.newStage("agregarProductos","Agregar Producto");
     }
 
     @FXML
