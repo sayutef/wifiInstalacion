@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="commit logica de LitebeamM5" />
+    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="commit logica de mastil">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/modemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/modemController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,7 +157,7 @@
       <workItem from="1710987060935" duration="16300000" />
       <workItem from="1711015865901" duration="720000" />
       <workItem from="1711079142709" duration="4999000" />
-      <workItem from="1711089883008" duration="1614000" />
+      <workItem from="1711089883008" duration="2405000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit">
       <option name="closed" value="true" />
@@ -340,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711091464937</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="commit logica de mastil">
+      <option name="closed" value="true" />
+      <created>1711091891396</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1711091891396</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +380,8 @@
     <MESSAGE value="commit IverEmpleados" />
     <MESSAGE value="commit IverUsuarios" />
     <MESSAGE value="commit logica de LitebeamM5" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit logica de LitebeamM5" />
+    <MESSAGE value="commit logica de mastil" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit logica de mastil" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
