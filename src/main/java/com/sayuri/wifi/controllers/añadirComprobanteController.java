@@ -84,6 +84,8 @@ public class añadirComprobanteController {
 
     @FXML
     void bttonVolver(MouseEvent event) {
+        HelloApplication.getStageView().close();
+
     }
 
     @FXML

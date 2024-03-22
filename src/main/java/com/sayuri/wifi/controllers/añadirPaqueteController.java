@@ -74,7 +74,7 @@ public class añadirPaqueteController {
 
     @FXML
     void bttonReturn(MouseEvent event) {
-
+        HelloApplication.getStageView().close();
     }
 
     @FXML

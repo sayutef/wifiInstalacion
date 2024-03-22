@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="commit logica de mastil">
+    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="commit logica de CloseApplication">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/modemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/modemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirComprobanteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirComprobanteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirPaqueteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirPaqueteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirTecnicosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirTecnicosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirUsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirUsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/removerPaqueteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/removerPaqueteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Administrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Administrador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/eliminarPaquetes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/eliminarPaquetes.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +164,7 @@
       <workItem from="1710987060935" duration="16300000" />
       <workItem from="1711015865901" duration="720000" />
       <workItem from="1711079142709" duration="4999000" />
-      <workItem from="1711089883008" duration="2405000" />
+      <workItem from="1711089883008" duration="5192000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit">
       <option name="closed" value="true" />
@@ -351,7 +358,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711091891396</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="commit logica de Add-modem">
+      <option name="closed" value="true" />
+      <created>1711092406574</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1711092406574</updated>
+    </task>
+    <task id="LOCAL-00026" summary="commit logica de CloseApplication">
+      <option name="closed" value="true" />
+      <created>1711092549949</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1711092549949</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +404,9 @@
     <MESSAGE value="commit IverUsuarios" />
     <MESSAGE value="commit logica de LitebeamM5" />
     <MESSAGE value="commit logica de mastil" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit logica de mastil" />
+    <MESSAGE value="commit logica de Add-modem" />
+    <MESSAGE value="commit logica de CloseApplication" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit logica de CloseApplication" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -67,7 +67,7 @@ public class HelloController {
 
     @FXML
     void bttonSalir() {
-
+        HelloApplication.getStageView().close();
     }
 
     private void mostrarAlerta(String titulo, String encabezado, String contenido, Alert.AlertType tipo) {

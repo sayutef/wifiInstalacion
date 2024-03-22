@@ -67,7 +67,7 @@ public class añadirUsuarioController {
 
     @FXML
     void bttonVolver(MouseEvent event) {
-
+        HelloApplication.getStageView().close();
     }
 
     @FXML
