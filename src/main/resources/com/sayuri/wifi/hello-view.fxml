@@ -23,7 +23,7 @@
                 </Label>
                 <ImageView fitHeight="87.0" fitWidth="175.0" layoutX="386.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@imagenes/public-wifi-5403.gif" />
+
                     </image>
                 </ImageView>
             </children>

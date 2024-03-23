@@ -67,7 +67,7 @@ public class menuSuperAdminController {
 
     @FXML
     void bttonAddTec(MouseEvent event) {
-        HelloApplication.newStage("agregarTecnicos","Agregar Tecnico");
+        HelloApplication.newStage("agregarTecnicos","Agregar Tecnicos");
     }
 
     @FXML
