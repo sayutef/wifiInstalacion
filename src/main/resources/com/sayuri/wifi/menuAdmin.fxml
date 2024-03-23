@@ -60,7 +60,7 @@
                         <Image url="@imagenes/vista.png" />
                      </image></ImageView>
                </graphic></Button>
-            <Button fx:id="bttonAddProducto" contentDisplay="TOP" layoutX="10.0" layoutY="22.0" mnemonicParsing="false" onMouseClicked="#bttonAdd" prefHeight="134.0" prefWidth="289.0" text="Agregar Productos" GridPane.columnIndex="1">
+            <Button fx:id="bttonAddProducto" contentDisplay="TOP" layoutX="10.0" layoutY="22.0" mnemonicParsing="false" onMouseClicked="#bttonAddProducto" prefHeight="134.0" prefWidth="289.0" text="Agregar Productos" GridPane.columnIndex="1">
                <graphic>
                   <ImageView fitHeight="98.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -76,7 +76,7 @@
                      </image></ImageView>
                </graphic>
             </Button>
-            <Button fx:id="bttonImprimir" contentDisplay="TOP" layoutX="10.0" layoutY="22.0" mnemonicParsing="false" onMouseClicked="#bttonImprimir" prefHeight="127.0" prefWidth="290.0" text="Imprimir Comprobante" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Button fx:id="bttonImprimirComprobante" contentDisplay="TOP" layoutX="10.0" layoutY="22.0" mnemonicParsing="false" onMouseClicked="#bttonImprimirComprobante" prefHeight="127.0" prefWidth="290.0" text="Imprimir Comprobante" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <graphic>
                   <ImageView fitHeight="98.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -85,7 +85,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="bttonComprobante" contentDisplay="TOP" layoutX="20.0" layoutY="32.0" mnemonicParsing="false" onMouseClicked="#bttonComprobante" prefHeight="134.0" prefWidth="286.0" text="Comprobante De Pago" GridPane.rowIndex="1">
+            <Button fx:id="bttonComprobante" contentDisplay="TOP" layoutX="20.0" layoutY="32.0" mnemonicParsing="false" onMouseClicked="#bttonComprobante" prefHeight="134.0" prefWidth="286.0" text="Generar Comprobante De Pago" GridPane.rowIndex="1">
                <graphic>
                   <ImageView fitHeight="98.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -93,7 +93,7 @@
                      </image></ImageView>
                </graphic>
             </Button>
-            <Button fx:id="bttonSeeUser" contentDisplay="TOP" layoutX="10.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#bttonSeeUser" prefHeight="146.0" prefWidth="289.0" text="Ver Usuarios" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <Button fx:id="bttonSeeUserOrProduct" contentDisplay="TOP" layoutX="10.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#bttonSeeUserOrProduct" prefHeight="146.0" prefWidth="289.0" text="Ver Usuarios o productos" GridPane.columnIndex="2" GridPane.rowIndex="1">
                <graphic>
                   <ImageView fitHeight="98.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -102,7 +102,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="bttonSeeOrdenes" contentDisplay="TOP" layoutX="612.0" layoutY="171.0" mnemonicParsing="false" onMouseClicked="#bttonSeeOrdenes" prefHeight="146.0" prefWidth="289.0" text="Ver Ordenes De Servicio" GridPane.rowIndex="2">
+            <Button fx:id="bttonAddUsuario" contentDisplay="TOP" layoutX="612.0" layoutY="171.0" mnemonicParsing="false" onMouseClicked="#bttonAddUsuario" prefHeight="146.0" prefWidth="289.0" text="Agrega Usuario" GridPane.rowIndex="2">
                <graphic>
                   <ImageView fitHeight="98.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -111,7 +111,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="bttonGenerarReporte" contentDisplay="TOP" layoutX="10.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#bttonGenerarReporte" prefHeight="146.0" prefWidth="289.0" text="Generar Reporte" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <Button fx:id="bttonDeleteUser" contentDisplay="TOP" layoutX="10.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#bttonDeleteUser" prefHeight="146.0" prefWidth="289.0" text="Elimina Usuario" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <graphic>
                   <ImageView fitHeight="98.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
                      <image>
