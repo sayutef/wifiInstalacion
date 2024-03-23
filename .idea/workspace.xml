@@ -4,291 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="My first commit">
-      <change afterPath="$PROJECT_DIR$/../A/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A/src/A/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A/src/A/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Alumno/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Alumno/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Alumno/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Alumno/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Alumno/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Alumno/src/Alumno/Alumno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Alumno/src/Alumno/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Arreglo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Arreglo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Arreglo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Arreglo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Asignatura/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Asignatura/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Asignatura/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Asignatura/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Asignatura/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Asignatura/src/models/Estudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Asignatura/src/models/ListaAsistencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Asignatura/src/models/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../B/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../B/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../B/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../B/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../B/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../B/src/B/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../B/src/B/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Elemento/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Elemento/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Elemento/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Elemento/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Elemento/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Elemento/src/Elemento/Elemento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Elemento/src/Elemento/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElementoM/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElementoM/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElementoM/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElementoM/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElementoM/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElementoM/src/Mayoritario/ElementoM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElementoM/src/Mayoritario/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Est/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Est/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Est/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Est/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Est/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Est/src/Est/C2_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Est/src/Est/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenHoracio/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenHoracio/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenHoracio/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenHoracio/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenHoracio/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenHoracio/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenHoracio/src/models/Guardar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenHoracio/src/models/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Examn/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Examn/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Examn/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Examn/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Examn/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Examn/src/Sayuri/Cancion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Examn/src/Sayuri/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gestion/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gestion/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gestion/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gestion/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gestion/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gestion/src/Gestion/Estudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gestion/src/Gestion/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Impresora/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Impresora/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Impresora/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Impresora/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Impresora/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Impresora/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Impresora/src/models/Documento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Impresora/src/models/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Log/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Log/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Log/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Log/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Log/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Log/src/models/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Log/src/models/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Login1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Login1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Login1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Login1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Login1/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Login1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Login1/src/Login/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Login1/src/Login/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pagina/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pagina/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pagina/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pagina/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pagina/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pagina/src/models/Autor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pagina/src/models/Libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pagina/src/models/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Panaderia/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Panaderia/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Panaderia/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Panaderia/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Panaderia/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Panaderia/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Panaderia/src/models/Alimento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Panaderia/src/models/Arqueo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Panaderia/src/models/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Panaderia/src/models/Galleta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Panaderia/src/models/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Panaderia/src/models/Pan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Panaderia/src/models/Pastel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PanaderiaHu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practice/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practice/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practice/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practice/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practice/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practice/src/sayuri/Elemento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practice/src/sayuri/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programa/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programa/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programa/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programa/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programa/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programa/src/Programa/Asignatura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programa/src/Programa/Docente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programa/src/Programa/Estudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programa/src/Programa/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProyectoComp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProyectoComp/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProyectoComp/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProyectoComp/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProyectoComp/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProyectoComp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProyectoComp/src/models/Administrador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProyectoComp/src/models/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProyectoComp/src/models/Tecnicos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SetZero/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SetZero/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SetZero/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SetZero/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SetZero/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SetZero/src/models/SetZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SumaArrays/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SumaArrays/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SumaArrays/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SumaArrays/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SumaArrays/sayuri/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SumaArrays/sayuri/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Target/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Target/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Target/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Target/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Target/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Target/src/sayuri/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Target2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Target2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Target2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Target2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Target2/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Target2/src/sayuri/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Target2/src/sayuri/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../URL/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../URL/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../URL/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../URL/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../URL/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../URL/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../URL/src/models/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uno/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uno/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uno/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uno/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uno/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uno/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Veterinaria/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Veterinaria/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Veterinaria/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Veterinaria/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Veterinaria/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Veterinaria/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Veterinaria/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Veterinaria/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Veterinaria/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Veterinaria/src/main/java/com/sayuri/veterinaria/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Veterinaria/src/main/java/com/sayuri/veterinaria/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Veterinaria/src/main/java/com/sayuri/veterinaria/models/Citas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Veterinaria/src/main/java/com/sayuri/veterinaria/models/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Veterinaria/src/main/java/com/sayuri/veterinaria/models/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Veterinaria/src/main/java/com/sayuri/veterinaria/models/Mascota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Veterinaria/src/main/java/com/sayuri/veterinaria/models/Perro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Veterinaria/src/main/java/com/sayuri/veterinaria/models/Veterinaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Veterinaria/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Veterinaria/src/main/resources/com/sayuri/veterinaria/home-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../burble/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../burble/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../burble/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../burble/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../burble/src/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../burble/src/models/Burble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/sayuri/demo/controllers/controllers/controllers/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/com/sayuri/demo/MostrarEmpleados.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/com/sayuri/demo/MostrarGalleta.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/com/sayuri/demo/MostrarPan.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/com/sayuri/demo/MostrarPastel.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/com/sayuri/demo/controllers/controllers/controllers/imagen/admi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/com/sayuri/demo/controllers/controllers/controllers/imagen/empleado.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/com/sayuri/demo/controllers/controllers/controllers/imagen/empleado.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../estructuradedatos/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../estructuradedatos/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../estructuradedatos/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../estructuradedatos/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../estructuradedatos/src/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../holamundo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../holamundo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../holamundo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../holamundo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../holamundo/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../holamundo/src/burblue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nose/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nose/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nose/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nose/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nose/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sesion9/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sesion9/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sesion9/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sesion9/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sesion9/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sesion9/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sesion9/src/Models/Ejercicio2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/models/Administrador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/models/AdministradorAsignaciones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/models/AdministradorVehiculos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/models/Chofer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/models/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/models/RegistroServicios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/src/models/Vehiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wifiCompl/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wifiCompl/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wifiCompl/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wifiCompl/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wifiCompl/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wifiCompl/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wifiComplem1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wifiComplem1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wifiComplem1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wifiComplem1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wifiComplem1/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/viewUsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/viewUsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/css/bttonAddPaquete.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/css/bttonAddPaquete.css" afterDir="false" />
+    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="commit logica de CloseApplication">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirComprobanteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirComprobanteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirPaqueteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirPaqueteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirTecnicosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirTecnicosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirUsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirUsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/removerPaqueteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/removerPaqueteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Administrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Administrador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/eliminarPaquetes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/eliminarPaquetes.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,14 +23,29 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="FxmlFile" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Miltonvaz&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="11ddbb8c-c5da-49ce-bad2-38eb1bfbea2f" />
+        <option name="url" value="https://github.com/sayutef/wifiInstalacion.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -323,31 +63,78 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.JavaFX",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.sayuri.wifi.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Milto\IdeaProject\wifiInstalacion\src\main\resources\com\sayuri\wifi" />
+      <recent name="C:\Users\Milto\IdeaProject\wifiInstalacion\src\main\java\com\sayuri\wifi\css" />
       <recent name="C:\Users\Sayur\IdeaProjects\Wifi\src\main\resources\com\sayuri\wifi" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.sayuri.wifi" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.com.sayuri.wifi.HelloApplication">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alilopez.application.HelloApplication" />
+      <module name="Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alilopez.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.sayuri.wifi.HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sayuri.wifi.HelloApplication" />
+      <module name="Wifi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sayuri.wifi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.sayuri.wifi.HelloApplication" />
+        <item itemvalue="Application.HelloApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.21-corretto-11.0.21-4caba194b151-9f4ef98c" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -360,6 +147,24 @@
       <workItem from="1709607976905" duration="2378000" />
       <workItem from="1710194480564" duration="2329000" />
       <workItem from="1710196840868" duration="1775000" />
+      <workItem from="1710616644086" duration="250000" />
+      <workItem from="1710621211823" duration="3030000" />
+      <workItem from="1710626900907" duration="350000" />
+      <workItem from="1710652917439" duration="10000" />
+      <workItem from="1710733544230" duration="111000" />
+      <workItem from="1710788530033" duration="804000" />
+      <workItem from="1710791752529" duration="60000" />
+      <workItem from="1710810436688" duration="38000" />
+      <workItem from="1710864567681" duration="21000" />
+      <workItem from="1710895279694" duration="5354000" />
+      <workItem from="1710901466883" duration="2040000" />
+      <workItem from="1710903564778" duration="126000" />
+      <workItem from="1710903721978" duration="99000" />
+      <workItem from="1710903845734" duration="475000" />
+      <workItem from="1710987060935" duration="16300000" />
+      <workItem from="1711015865901" duration="720000" />
+      <workItem from="1711079142709" duration="4999000" />
+      <workItem from="1711089883008" duration="5192000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit">
       <option name="closed" value="true" />
@@ -369,7 +174,207 @@
       <option name="project" value="LOCAL" />
       <updated>1710198565900</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit menu SuperAdmin">
+      <option name="closed" value="true" />
+      <created>1710621265970</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710621265970</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit menu SuperAdmin2">
+      <option name="closed" value="true" />
+      <created>1710622131910</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710622131910</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit producto">
+      <option name="closed" value="true" />
+      <created>1710623256526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710623256526</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit menu admin">
+      <option name="closed" value="true" />
+      <created>1710627045391</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710627045391</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit menu superadmin">
+      <option name="closed" value="true" />
+      <created>1710627185321</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710627185321</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit inicio Sesion">
+      <option name="closed" value="true" />
+      <created>1710998334586</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710998334586</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit Agregar Paquete">
+      <option name="closed" value="true" />
+      <created>1711004165115</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711004165115</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commit Generar Comprobante">
+      <option name="closed" value="true" />
+      <created>1711010452733</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711010452735</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commit Añadir Usuario">
+      <option name="closed" value="true" />
+      <created>1711011633618</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711011633618</updated>
+    </task>
+    <task id="LOCAL-00011" summary="commit add menuSuperAdmin">
+      <option name="closed" value="true" />
+      <created>1711012654198</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711012654198</updated>
+    </task>
+    <task id="LOCAL-00012" summary="commit addTecnico">
+      <option name="closed" value="true" />
+      <created>1711013992735</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711013992735</updated>
+    </task>
+    <task id="LOCAL-00013" summary="commit addTecnico">
+      <option name="closed" value="true" />
+      <created>1711016009296</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711016009296</updated>
+    </task>
+    <task id="LOCAL-00014" summary="commit IaddUsuario">
+      <option name="closed" value="true" />
+      <created>1711016062582</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711016062582</updated>
+    </task>
+    <task id="LOCAL-00015" summary="commit Idelatepaquete">
+      <option name="closed" value="true" />
+      <created>1711016141564</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1711016141564</updated>
+    </task>
+    <task id="LOCAL-00016" summary="commit IdelateProducto">
+      <option name="closed" value="true" />
+      <created>1711016194027</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1711016194027</updated>
+    </task>
+    <task id="LOCAL-00017" summary="commit IdelateTecnicos">
+      <option name="closed" value="true" />
+      <created>1711016249932</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1711016249932</updated>
+    </task>
+    <task id="LOCAL-00018" summary="commit IdelateUsuarios">
+      <option name="closed" value="true" />
+      <created>1711016299113</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1711016299113</updated>
+    </task>
+    <task id="LOCAL-00019" summary="commit IverPaquetes">
+      <option name="closed" value="true" />
+      <created>1711016371147</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1711016371147</updated>
+    </task>
+    <task id="LOCAL-00020" summary="commit IverProductos">
+      <option name="closed" value="true" />
+      <created>1711016420821</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1711016420821</updated>
+    </task>
+    <task id="LOCAL-00021" summary="commit IverEmpleados">
+      <option name="closed" value="true" />
+      <created>1711016472099</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1711016472099</updated>
+    </task>
+    <task id="LOCAL-00022" summary="commit IverUsuarios">
+      <option name="closed" value="true" />
+      <created>1711016507623</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1711016507623</updated>
+    </task>
+    <task id="LOCAL-00023" summary="commit logica de LitebeamM5">
+      <option name="closed" value="true" />
+      <created>1711091464937</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1711091464937</updated>
+    </task>
+    <task id="LOCAL-00024" summary="commit logica de mastil">
+      <option name="closed" value="true" />
+      <created>1711091891396</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1711091891396</updated>
+    </task>
+    <task id="LOCAL-00025" summary="commit logica de Add-modem">
+      <option name="closed" value="true" />
+      <created>1711092406574</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1711092406574</updated>
+    </task>
+    <task id="LOCAL-00026" summary="commit logica de CloseApplication">
+      <option name="closed" value="true" />
+      <created>1711092549949</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1711092549949</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +382,31 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="My first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="My first commit" />
+    <MESSAGE value="commit menu SuperAdmin" />
+    <MESSAGE value="commit menu SuperAdmin2" />
+    <MESSAGE value="commit producto" />
+    <MESSAGE value="commit menu admin" />
+    <MESSAGE value="commit menu superadmin" />
+    <MESSAGE value="commit inicio Sesion" />
+    <MESSAGE value="commit Agregar Paquete" />
+    <MESSAGE value="commit Generar Comprobante" />
+    <MESSAGE value="commit Añadir Usuario" />
+    <MESSAGE value="commit add menuSuperAdmin" />
+    <MESSAGE value="commit addTecnico" />
+    <MESSAGE value="commit IaddUsuario" />
+    <MESSAGE value="commit Idelatepaquete" />
+    <MESSAGE value="commit IdelateProducto" />
+    <MESSAGE value="commit IdelateTecnicos" />
+    <MESSAGE value="commit IdelateUsuarios" />
+    <MESSAGE value="commit IverPaquetes" />
+    <MESSAGE value="commit IverProductos" />
+    <MESSAGE value="commit IverEmpleados" />
+    <MESSAGE value="commit IverUsuarios" />
+    <MESSAGE value="commit logica de LitebeamM5" />
+    <MESSAGE value="commit logica de mastil" />
+    <MESSAGE value="commit logica de Add-modem" />
+    <MESSAGE value="commit logica de CloseApplication" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit logica de CloseApplication" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

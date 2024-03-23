@@ -1,6 +1,5 @@
 package com.sayuri.wifi;
 
-import com.sayuri.wifi.controllers.HelloController;
 import com.sayuri.wifi.models.Administrador;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -23,17 +22,10 @@ public class HelloApplication extends Application {
     }
     @Override
     public void start(Stage stage) throws IOException {
-        stageRoot = stage;
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
-        Parent root = fxmlLoader.load();
-        HelloController helloController = fxmlLoader.getController();
-        helloController.init(stageRoot);
-
-        Scene scene = new Scene(root);
-        scene.getStylesheets().add(BootstrapFX.bootstrapFXStylesheet());
-        stage.setTitle("Wifi ");
+        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+        stage.setTitle("Hello!");
         stage.setScene(scene);
-        stage.centerOnScreen();
         stage.show();
 
     }

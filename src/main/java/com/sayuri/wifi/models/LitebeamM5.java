@@ -4,12 +4,23 @@ public class LitebeamM5 extends Producto{
     private String tipoConexion;
     private String potenciaTransmicion;
 
-    public LitebeamM5(){super();}
+    public LitebeamM5(String tipoConexion, String potenciaTransmicion) {
+        this.tipoConexion = tipoConexion;
+        this.potenciaTransmicion = potenciaTransmicion;
+    }
 
     public LitebeamM5(String nombre, int costo, String tipoConexion, String potenciaTransmicion) {
         super(nombre, costo);
         this.tipoConexion = tipoConexion;
         this.potenciaTransmicion = potenciaTransmicion;
+    }
+
+    public String getTipoConexion() {
+        return tipoConexion;
+    }
+
+    public String getPotenciaTransmicion() {
+        return potenciaTransmicion;
     }
 
     @Override
@@ -20,21 +31,5 @@ public class LitebeamM5 extends Producto{
                 ", nombre='" + nombre + '\'' +
                 ", costo=" + costo +
                 '}';
-    }
-
-    public String getTipoConexion() {
-        return tipoConexion;
-    }
-
-    public void setTipoConexion(String tipoConexion) {
-        this.tipoConexion = tipoConexion;
-    }
-
-    public String getPotenciaTransmicion() {
-        return potenciaTransmicion;
-    }
-
-    public void setPotenciaTransmicion(String potenciaTransmicion) {
-        this.potenciaTransmicion = potenciaTransmicion;
     }
 }

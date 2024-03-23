@@ -3,13 +3,57 @@ package com.sayuri.wifi.models;
 import java.util.ArrayList;
 
 public class Administrador {
-    private ArrayList<Persona>ListPersona = new ArrayList<>();
-    public boolean addPersona (Persona persona){return ListPersona.add(persona);}
+    private ArrayList<Persona> ListPersona = new ArrayList<>();
+
+    public boolean addPersona(Persona persona) {
+        return ListPersona.add(persona);
+    }
+
     public ArrayList<Persona> getListPersona() {
         return ListPersona;
     }
 
+    private ArrayList<Paquete> listPaquetes = new ArrayList<>();
+    private ArrayList<Comprobante> listComprobante = new ArrayList<>();
+
+    public ArrayList<Comprobante> getListComprobante() {
+        return listComprobante;
+    }
+
+    public boolean addComprobante(Comprobante comprobante) {
+        return listComprobante.add(comprobante);
+    }
+
+    public ArrayList<Paquete> getListPaquetes() {
+        return listPaquetes;
+    }
+
+    public boolean addPaquete(Paquete paquete) {
+        return listPaquetes.add(paquete);
+    }
+
     public void setListPersona(ArrayList<Persona> listPersona) {
         ListPersona = listPersona;
+    }
+
+    private ArrayList<Producto> listProduct = new ArrayList<>();
+
+    public boolean addProduct(Producto product) {
+        return listProduct.add(product);
+    }
+
+    public ArrayList<Producto> getListProduct() {
+        return listProduct;
+    }
+
+    public boolean eliminarPaquete(String nombre) {
+        boolean encontrado = false;
+        for (int i = 0; i < listPaquetes.size(); i++) {
+            if (listPaquetes.get(i).getNombre().equals(nombre)) {
+                encontrado = true;
+                listPaquetes.remove(i);
+            }
+        }
+        return encontrado;
     }
 }

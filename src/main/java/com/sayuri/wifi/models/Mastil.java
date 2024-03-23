@@ -4,8 +4,9 @@ public class Mastil extends Producto{
     private String material;
     private int altura;
 
-    public Mastil() {
-        super();
+    public Mastil(String material, int altura) {
+        this.material = material;
+        this.altura = altura;
     }
 
     public Mastil(String nombre, int costo, String material, int altura) {
@@ -22,21 +23,5 @@ public class Mastil extends Producto{
                 ", nombre='" + nombre + '\'' +
                 ", costo=" + costo +
                 '}';
-    }
-
-    public String getMaterial() {
-        return material;
-    }
-
-    public void setMaterial(String material) {
-        this.material = material;
-    }
-
-    public int getAltura() {
-        return altura;
-    }
-
-    public void setAltura(int altura) {
-        this.altura = altura;
     }
 }

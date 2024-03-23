@@ -57,84 +57,70 @@ public class menuSuperAdminController {
 
     @FXML
     void bttonAddPaquete(MouseEvent event) {
-
+        HelloApplication.newStage("agregarPaquetes", "Agregar Paquetes");
     }
 
     @FXML
     void bttonAddProductos(MouseEvent event) {
-
+        HelloApplication.newStage("agregarProductos","Agregar Producto");
     }
 
     @FXML
     void bttonAddTec(MouseEvent event) {
-        HelloApplication.newStage("addTecnicos", "");
+        HelloApplication.newStage("agregarTecnicos","Agregar Tecnico");
     }
 
     @FXML
     void bttonAddUser(MouseEvent event) {
-
+        HelloApplication.newStage("agregarUsuario","Agregar Usuario");
     }
 
     @FXML
     void bttonDelatePaquete(MouseEvent event) {
-
+        HelloApplication.newStage("eliminarPaquetes","Eliminar Usuarios");
     }
 
     @FXML
     void bttonDelateProductos(MouseEvent event) {
-
+        HelloApplication.newStage("eliminarProductos","Eliminar Productos");
     }
 
     @FXML
     void bttonDelateTec(MouseEvent event) {
-
+        HelloApplication.newStage("eliminarTecnicos","Eliminar Tecnicos");
     }
 
     @FXML
     void bttonDelateUser(MouseEvent event) {
-
+        HelloApplication.newStage("eliminarUsuario","Eliminar Usuarios");
     }
 
     @FXML
     void bttonSalir(MouseEvent event) {
-
+        HelloApplication.getStageView().close();
     }
 
     @FXML
     void bttonSeePaquete(MouseEvent event) {
-
+        HelloApplication.newStage("verPaquetesWifi","Ver Paquetes");
     }
 
     @FXML
     void bttonSeeProduct(MouseEvent event) {
-
+        HelloApplication.newStage("verProductos","Ver Productos");
     }
 
     @FXML
     void bttonSeeTecnicos(MouseEvent event) {
-
+        HelloApplication.newStage("verEmpleados","Ver Empleados");
     }
 
     @FXML
     void bttonSeeUser(MouseEvent event) {
-
+        HelloApplication.newStage("verUsuario","Ver Usuarios");
     }
 
     @FXML
     void initialize() {
-        assert bttonAddTec != null : "fx:id=\"bttonAddTec\" was not injected: check your FXML file 'menuSuperAdmin.fxml'.";
-        assert bttonDelateTec != null : "fx:id=\"bttonDelateTec\" was not injected: check your FXML file 'menuSuperAdmin.fxml'.";
-        assert bttonDelatePaquete != null : "fx:id=\"bttonDelatePaquete\" was not injected: check your FXML file 'menuSuperAdmin.fxml'.";
-        assert bttonSeePaquete != null : "fx:id=\"bttonSeePaquete\" was not injected: check your FXML file 'menuSuperAdmin.fxml'.";
-        assert bttonSeeTecnicos != null : "fx:id=\"bttonSeeTecnicos\" was not injected: check your FXML file 'menuSuperAdmin.fxml'.";
-        assert bttonAddPaquete != null : "fx:id=\"bttonAddPaquete\" was not injected: check your FXML file 'menuSuperAdmin.fxml'.";
-        assert bttonSeeUser != null : "fx:id=\"bttonSeeUser\" was not injected: check your FXML file 'menuSuperAdmin.fxml'.";
-        assert bttonDelateUser != null : "fx:id=\"bttonDelateUser\" was not injected: check your FXML file 'menuSuperAdmin.fxml'.";
-        assert bttonAddUser != null : "fx:id=\"bttonAddUser\" was not injected: check your FXML file 'menuSuperAdmin.fxml'.";
-        assert bttonDelateProductos != null : "fx:id=\"bttonDelateProductos\" was not injected: check your FXML file 'menuSuperAdmin.fxml'.";
-        assert bttonAddProductos != null : "fx:id=\"bttonAddProductos\" was not injected: check your FXML file 'menuSuperAdmin.fxml'.";
-        assert bttonSeeProduct != null : "fx:id=\"bttonSeeProduct\" was not injected: check your FXML file 'menuSuperAdmin.fxml'.";
-        assert bttonSalir != null : "fx:id=\"bttonSalir\" was not injected: check your FXML file 'menuSuperAdmin.fxml'.";
-
     }
 }

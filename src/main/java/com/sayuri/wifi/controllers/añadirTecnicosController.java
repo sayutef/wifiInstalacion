@@ -39,7 +39,7 @@ public class añadirTecnicosController {
         try {
             String nombreTecnico = textNameTecnico.getText();
             String apellidoTecnico = textApellido.getText();
-            int numTelefonoTecnico = Integer.parseInt(textTelefono.getText());
+            String numTelefonoTecnico = textTelefono.getText();
             if (nombreTecnico.isEmpty() || apellidoTecnico.isEmpty()) {
                 throw new IllegalArgumentException("Faltan datos por introducir en el formulario.");
             }
@@ -65,12 +65,12 @@ public class añadirTecnicosController {
     }
 
     @FXML
-    void bttonReturn(MouseEvent event) {
-
+    void bttonVolver(MouseEvent event) {
+        HelloApplication.getStageView().close();
     }
 
     @FXML
     void initialize() {
-
     }
 }
+
