@@ -21,7 +21,7 @@
             </Label>
             <ImageView fitHeight="102.0" fitWidth="99.0" layoutX="582.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@Imagenes/icon01.png" />
+                  <Image url="@imagenes/icon01.png" />
                </image>
             </ImageView>
          </children></Pane>
