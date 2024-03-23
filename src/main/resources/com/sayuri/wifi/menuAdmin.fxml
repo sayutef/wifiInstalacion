@@ -34,7 +34,7 @@
                <children>
                   <ImageView fitHeight="196.0" fitWidth="274.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@Imagenes/public-wifi-5403.gif" />
+                        <Image url="@imagenes/public-wifi-5403.gif" />
                      </image>
                   </ImageView>
                </children>
@@ -57,14 +57,14 @@
                <graphic>
                   <ImageView fitHeight="98.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@Imagenes/vista.png" />
+                        <Image url="@imagenes/vista.png" />
                      </image></ImageView>
                </graphic></Button>
             <Button fx:id="bttonAddProducto" contentDisplay="TOP" layoutX="10.0" layoutY="22.0" mnemonicParsing="false" onMouseClicked="#bttonAdd" prefHeight="134.0" prefWidth="289.0" text="Agregar Productos" GridPane.columnIndex="1">
                <graphic>
                   <ImageView fitHeight="98.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@Imagenes/bolsa-de-la-compra.png" />
+                        <Image url="@imagenes/bolsa-de-la-compra.png" />
                      </image></ImageView>
                </graphic>
             </Button>
@@ -72,7 +72,7 @@
                <graphic>
                   <ImageView fitHeight="98.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@Imagenes/bolsa-de-la-compra1.png" />
+                        <Image url="@imagenes/bolsa-de-la-compra1.png" />
                      </image></ImageView>
                </graphic>
             </Button>
@@ -80,7 +80,7 @@
                <graphic>
                   <ImageView fitHeight="98.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@Imagenes/recibido.png" />
+                        <Image url="@imagenes/recibido.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -89,7 +89,7 @@
                <graphic>
                   <ImageView fitHeight="98.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@Imagenes/factura.png" />
+                        <Image url="@imagenes/factura.png" />
                      </image></ImageView>
                </graphic>
             </Button>
@@ -97,7 +97,7 @@
                <graphic>
                   <ImageView fitHeight="98.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@Imagenes/ver.png" />
+                        <Image url="@imagenes/ver.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -106,7 +106,7 @@
                <graphic>
                   <ImageView fitHeight="98.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@Imagenes/documento.png" />
+                        <Image url="@imagenes/documento.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -115,7 +115,7 @@
                <graphic>
                   <ImageView fitHeight="98.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@Imagenes/informe.png" />
+                        <Image url="@imagenes/informe.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -124,7 +124,7 @@
                <graphic>
                   <ImageView fitHeight="98.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@Imagenes/portapapeles.png" />
+                        <Image url="@imagenes/portapapeles.png" />
                      </image>
                   </ImageView>
                </graphic>
