@@ -36,8 +36,6 @@ public class añadirProductoController {
 
     @FXML
     void bttonAdd(MouseEvent event) {
-        int costo = Integer.parseInt(textCostoProduct.getText());
-        String descripcion = textDescripcionProduct.getText();
         Producto producto = null;
         switch (comboProductAdd.getValue()){
             case "LitebeamM5":

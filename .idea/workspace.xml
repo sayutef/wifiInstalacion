@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="commit logica de CloseApplication">
+    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="commit delatePaquetes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirComprobanteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirComprobanteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirPaqueteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirPaqueteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirTecnicosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirTecnicosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirUsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirUsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/removerPaqueteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/removerPaqueteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Admin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Administrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Administrador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/eliminarPaquetes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/eliminarPaquetes.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Comprobante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Comprobante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Paquete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Paquete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/SuperAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/SuperAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/agregarPaquetes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/agregarPaquetes.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/eliminarProductos.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/eliminarProductos.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/menuAdmin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/menuAdmin.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -164,7 +165,11 @@
       <workItem from="1710987060935" duration="16300000" />
       <workItem from="1711015865901" duration="720000" />
       <workItem from="1711079142709" duration="4999000" />
-      <workItem from="1711089883008" duration="5192000" />
+      <workItem from="1711089883008" duration="5904000" />
+      <workItem from="1711156500683" duration="1535000" />
+      <workItem from="1711158311563" duration="324000" />
+      <workItem from="1711158688304" duration="1175000" />
+      <workItem from="1711163652519" duration="1204000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit">
       <option name="closed" value="true" />
@@ -374,14 +379,32 @@
       <option name="project" value="LOCAL" />
       <updated>1711092549949</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="commit delatePaquetes">
+      <option name="closed" value="true" />
+      <created>1711095210797</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1711095210797</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="My first commit" />
     <MESSAGE value="commit menu SuperAdmin" />
     <MESSAGE value="commit menu SuperAdmin2" />
     <MESSAGE value="commit producto" />
@@ -406,7 +429,8 @@
     <MESSAGE value="commit logica de mastil" />
     <MESSAGE value="commit logica de Add-modem" />
     <MESSAGE value="commit logica de CloseApplication" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit logica de CloseApplication" />
+    <MESSAGE value="commit delatePaquetes" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit delatePaquetes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

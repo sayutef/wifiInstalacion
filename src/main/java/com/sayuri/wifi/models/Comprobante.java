@@ -37,12 +37,15 @@ public class Comprobante {
     public LocalDateTime getFecha() {
         return fecha;
     }
+
     public int getNoTicket() {
         return noTicket;
     }
+
     public int incrementarNoTicket() {
         return ++noTicketI;
     }
+
     @Override
     public String toString() {
         return "Comprobante{" +
@@ -55,3 +58,4 @@ public class Comprobante {
                 '}';
     }
 }
+
