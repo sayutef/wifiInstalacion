@@ -2,7 +2,7 @@ package com.sayuri.wifi.controllers;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-
+import com.sayuri.wifi.models.Usuario;
 import com.sayuri.wifi.HelloApplication;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -58,7 +58,7 @@ public class menuAdminControllers {
 
     @FXML
     void bttonComprobante(MouseEvent event) {
-        HelloApplication.newStage("agregarComprobante", "Agregar Comprobante");
+        HelloApplication.newStage("agregarComprobante-view", "Agregar Comprobante");
     }
 
     @FXML

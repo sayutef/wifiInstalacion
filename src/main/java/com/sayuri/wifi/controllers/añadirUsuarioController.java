@@ -71,6 +71,5 @@ public class añadirUsuarioController {
 
     @FXML
     void initialize() {
-
     }
 }

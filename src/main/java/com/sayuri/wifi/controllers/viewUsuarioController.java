@@ -2,6 +2,11 @@ package com.sayuri.wifi.controllers;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import com.sayuri.wifi.HelloApplication;
+import com.sayuri.wifi.models.Administrador;
+import com.sayuri.wifi.models.Persona;
+import com.sayuri.wifi.models.Usuario;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
@@ -16,7 +21,7 @@ public class viewUsuarioController {
     private URL location;
 
     @FXML
-    private ListView<?> listViewUser;
+    private ListView<String> listViewUser;
 
     @FXML
     private Button bttonReturn;
@@ -31,7 +36,10 @@ public class viewUsuarioController {
 
     @FXML
     void bttonSeeUser(MouseEvent event) {
-
+        Administrador usuario = HelloApplication.getAdmin();
+        for (Persona usuario1 : usuario.getListPersona()){
+            listViewUser.getItems().add(usuario1.toString());
+        }
     }
 
     @FXML

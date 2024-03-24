@@ -16,7 +16,7 @@ public class viewProductoController {
     private URL location;
 
     @FXML
-    private ListView<?> listViewProduct;
+    private ListView<String> listViewProduct;
 
     @FXML
     private Button bttonReturn;
