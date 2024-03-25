@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="commit delatePaquetes">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_03_2024_01_56_p__m___Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_03_2024_01_56_p__m___Changes_.xml" afterDir="false" />
+    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="commit delate and view paquete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirPaqueteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirPaqueteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/removerPaqueteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/removerPaqueteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/removerTecnicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/removerTecnicoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/viewEmpleadosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/viewEmpleadosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/viewPaqueteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/viewPaqueteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/agregarPaquetes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/agregarPaquetes.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/eliminarPaquetes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/eliminarPaquetes.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/verPaquetesWifi.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/verPaquetesWifi.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/verEmpleados.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/verEmpleados.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Login" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,7 +78,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Login",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -414,7 +408,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711214952581</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="commit delate and view paquete">
+      <option name="closed" value="true" />
+      <created>1711391758366</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1711391758366</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +434,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit menu SuperAdmin2" />
     <MESSAGE value="commit producto" />
     <MESSAGE value="commit menu admin" />
     <MESSAGE value="commit menu superadmin" />
@@ -457,7 +458,8 @@
     <MESSAGE value="commit logica de CloseApplication" />
     <MESSAGE value="commit delatePaquetes" />
     <MESSAGE value="commit correcciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit correcciones" />
+    <MESSAGE value="commit delate and view paquete" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit delate and view paquete" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

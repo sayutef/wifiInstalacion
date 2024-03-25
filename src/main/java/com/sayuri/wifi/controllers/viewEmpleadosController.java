@@ -4,9 +4,13 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 import com.sayuri.wifi.HelloApplication;
+import com.sayuri.wifi.models.Administrador;
+import com.sayuri.wifi.models.Persona;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.ListView;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 
 public class viewEmpleadosController {
@@ -18,13 +22,22 @@ public class viewEmpleadosController {
     private URL location;
 
     @FXML
-    private ListView<?> listViewEmpleado;
-
-    @FXML
     private Button bttonReturn;
 
     @FXML
     private Button bttonSee;
+
+    @FXML
+    private TableView<Persona> tableView;
+
+    @FXML
+    private TableColumn<Persona, String> c1table;
+
+    @FXML
+    private TableColumn<Persona, String> c2table;
+
+    @FXML
+    private TableColumn<Persona, String> c3table;
 
     @FXML
     void bttonReturn(MouseEvent event) {
@@ -33,14 +46,15 @@ public class viewEmpleadosController {
 
     @FXML
     void bttonSee(MouseEvent event) {
-
+        Administrador admin = HelloApplication.getAdmin();
+        tableView.getItems().clear();
+        tableView.getItems().addAll(admin.getListPersona());
     }
 
     @FXML
     void initialize() {
-        assert listViewEmpleado != null : "fx:id=\"listViewEmpleado\" was not injected: check your FXML file 'verEmpleados.fxml'.";
-        assert bttonReturn != null : "fx:id=\"bttonReturn\" was not injected: check your FXML file 'verEmpleados.fxml'.";
-        assert bttonSee != null : "fx:id=\"bttonSee\" was not injected: check your FXML file 'verEmpleados.fxml'.";
-
+        c1table.setCellValueFactory(new PropertyValueFactory<>("Nombre"));
+        c2table.setCellValueFactory(new PropertyValueFactory<>("Apellido"));
+        c3table.setCellValueFactory(new PropertyValueFactory<>("Telefono"));
     }
 }
