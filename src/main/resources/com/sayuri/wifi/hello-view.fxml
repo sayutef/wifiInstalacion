@@ -5,8 +5,6 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
@@ -21,11 +19,6 @@
                   <Font name="System Bold" size="31.0" />
                </font>
             </Label>
-            <ImageView fitHeight="87.0" fitWidth="175.0" layoutX="386.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@Imagenes/public-wifi-5403.gif" />
-               </image>
-            </ImageView>
          </children>
       </Pane>
       <VBox layoutX="76.0" layoutY="161.0" prefHeight="318.0" prefWidth="381.0" spacing="15.0">

@@ -49,11 +49,11 @@
                   <Font name="System Bold" size="17.0" />
                </font>
             </Button>
-            <TableView fx:id="tableView" layoutX="76.0" layoutY="166.0" prefHeight="200.0" prefWidth="565.0">
+            <TableView fx:id="tableView" layoutX="50.0" layoutY="169.0" prefHeight="200.0" prefWidth="627.0">
               <columns>
-                <TableColumn fx:id="c1Table" prefWidth="192.0" text="Costo" />
-                <TableColumn fx:id="c2Table" prefWidth="183.0" text="Nombre" />
-                  <TableColumn fx:id="c3Table" prefWidth="189.0" text="Descripcion" />
+                <TableColumn fx:id="c1Table" prefWidth="204.0" text="Paquete" />
+                <TableColumn fx:id="c2Table" prefWidth="209.0" text="Costo" />
+                  <TableColumn fx:id="c3Table" prefWidth="210.0" text="Descripcion" />
               </columns>
             </TableView>
          </children>

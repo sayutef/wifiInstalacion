@@ -38,6 +38,7 @@ public class añadirPaqueteController  {
     @FXML
     void bttonAdd(MouseEvent event) {
 
+
         try {
             String nombre = textNamePaquete.getText();
             String costoStr = textCostoPaquete.getText();
@@ -77,11 +78,10 @@ public class añadirPaqueteController  {
 
     @FXML
     void bttonVolver(MouseEvent event) {
-        HelloApplication.getStageView().close();
+
     }
 
     @FXML
     void initialize() {
     }
 }
-
