@@ -13,52 +13,52 @@
 <?import javafx.scene.text.Font?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="622.0" prefWidth="533.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sayuri.wifi.controllers.HelloController">
-   <children>
-      <Pane prefHeight="107.0" prefWidth="533.0" style="-fx-background-color: #0055FF;">
-         <children>
-            <Label alignment="CENTER" layoutX="33.0" layoutY="31.0" prefHeight="38.0" prefWidth="291.0" text="Inicio De Sesión " textFill="WHITE">
-               <font>
-                  <Font name="System Bold" size="31.0" />
-               </font>
-            </Label>
-            <ImageView fitHeight="87.0" fitWidth="175.0" layoutX="386.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@Imagenes/public-wifi-5403.gif" />
-               </image>
-            </ImageView>
-         </children>
-      </Pane>
-      <VBox layoutX="76.0" layoutY="161.0" prefHeight="318.0" prefWidth="381.0" spacing="15.0">
-         <children>
-            <Label text="Selecciona EL Usuario:">
-               <font>
-                  <Font name="System Bold" size="24.0" />
-               </font>
-            </Label>
-            <ComboBox fx:id="comboxUsuario" prefHeight="37.0" prefWidth="321.0" style="-fx-background-radius: 15;" />
-            <Label text="Usuario:">
-               <font>
-                  <Font name="System Bold" size="26.0" />
-               </font>
-            </Label>
-            <TextField fx:id="textFieldUsuario" prefHeight="44.0" prefWidth="381.0" style="-fx-background-radius: 15;" />
-            <Label text="Contraseña:">
-               <font>
-                  <Font name="System Bold" size="24.0" />
-               </font>
-            </Label>
-            <PasswordField fx:id="textFieldPwd" prefHeight="45.0" prefWidth="381.0" style="-fx-background-radius: 15;" />
-         </children>
-      </VBox>
-      <Button fx:id="bttonSalir" layoutX="79.0" layoutY="507.0" mnemonicParsing="false" onMouseClicked="#bttonSalir" prefHeight="60.0" prefWidth="160.0" style="-fx-background-color: #EA5409; -fx-background-radius: 20;" text="Cancelar" textFill="WHITE">
-         <font>
-            <Font name="System Bold" size="18.0" />
-         </font>
-      </Button>
-      <Button fx:id="bttonIniciar" layoutX="308.0" layoutY="507.0" mnemonicParsing="false" onMouseClicked="#bttonIniciar" prefHeight="60.0" prefWidth="160.0" style="-fx-background-color: #50D002; -fx-background-radius: 20;" text="Iniciar Sesión" textFill="WHITE">
-         <font>
-            <Font name="System Bold" size="19.0" />
-         </font>
-      </Button>
-   </children>
+    <children>
+        <Pane prefHeight="107.0" prefWidth="533.0" style="-fx-background-color: #0055FF;">
+            <children>
+                <Label alignment="CENTER" layoutX="33.0" layoutY="31.0" prefHeight="38.0" prefWidth="291.0" text="Inicio De Sesión " textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="31.0" />
+                    </font>
+                </Label>
+                <ImageView fitHeight="87.0" fitWidth="175.0" layoutX="386.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+
+                    </image>
+                </ImageView>
+            </children>
+        </Pane>
+        <VBox layoutX="76.0" layoutY="161.0" prefHeight="318.0" prefWidth="381.0" spacing="15.0">
+            <children>
+                <Label text="Selecciona EL Usuario:">
+                    <font>
+                        <Font name="System Bold" size="24.0" />
+                    </font>
+                </Label>
+                <ComboBox fx:id="comboxUsuario" prefHeight="37.0" prefWidth="321.0" style="-fx-background-radius: 15;" />
+                <Label text="Usuario:">
+                    <font>
+                        <Font name="System Bold" size="26.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="textFieldUsuario" prefHeight="44.0" prefWidth="381.0" style="-fx-background-radius: 15;" />
+                <Label text="Contraseña:">
+                    <font>
+                        <Font name="System Bold" size="24.0" />
+                    </font>
+                </Label>
+                <PasswordField fx:id="textFieldPwd" prefHeight="45.0" prefWidth="381.0" style="-fx-background-radius: 15;" />
+            </children>
+        </VBox>
+        <Button fx:id="bttonSalir" layoutX="79.0" layoutY="507.0" mnemonicParsing="false" onMouseClicked="#bttonSalir" prefHeight="60.0" prefWidth="160.0" style="-fx-background-color: #EA5409; -fx-background-radius: 20;" text="Cancelar" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="bttonIniciar" layoutX="308.0" layoutY="507.0" mnemonicParsing="false" onMouseClicked="#bttonIniciar" prefHeight="60.0" prefWidth="160.0" style="-fx-background-color: #50D002; -fx-background-radius: 20;" text="Iniciar Sesión" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="19.0" />
+            </font>
+        </Button>
+    </children>
 </AnchorPane>

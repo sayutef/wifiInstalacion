@@ -22,14 +22,12 @@ public class HelloApplication extends Application {
     }
     @Override
     public void start(Stage stage) throws IOException {
-        stageRoot = stage;
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("agregarProductos.fxml"));
-        Scene scene = new Scene(fxmlLoader.load());
-        scene.getStylesheets().add(BootstrapFX.bootstrapFXStylesheet());
-        stage.setTitle("Inicio de Sesión - Home");
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+        stage.setTitle("Hello!");
         stage.setScene(scene);
-        stage.centerOnScreen();
         stage.show();
+
     }
     public static void newStage(String fxml, String title) {
         stageView = new Stage();
