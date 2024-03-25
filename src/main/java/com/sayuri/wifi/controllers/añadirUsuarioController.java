@@ -44,7 +44,7 @@ public class añadirUsuarioController {
             if (nombreUser.isEmpty() || apellidoUser.isEmpty()) {
                 throw new IllegalArgumentException("Faltan datos por introducir en el formulario.");
             }
-           Usuario user = new Usuario(nombreUser, apellidoUser, direccion);
+            Usuario user = new Usuario(nombreUser, apellidoUser, direccion);
             HelloApplication.getAdmin().addPersona(user);
 
             System.out.println("Nombre : [" + user.getNombre() + "]");

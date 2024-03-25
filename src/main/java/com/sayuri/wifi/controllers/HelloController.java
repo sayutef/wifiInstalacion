@@ -1,21 +1,16 @@
 package com.sayuri.wifi.controllers;
-import java.net.URL;
-import java.util.ResourceBundle;
 
 import com.sayuri.wifi.HelloApplication;
 import com.sayuri.wifi.models.Admin;
 import com.sayuri.wifi.models.SuperAdmin;
 import javafx.fxml.FXML;
-import javafx.scene.control.*;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ComboBox;
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 
 public class HelloController {
-
-    @FXML
-    private ResourceBundle resources;
-
-    @FXML
-    private URL location;
 
     @FXML
     private ComboBox<String> comboxUsuario;
@@ -27,17 +22,11 @@ public class HelloController {
     private PasswordField textFieldPwd;
 
     @FXML
-    private Button bttonSalir;
-
-    @FXML
-    private Button bttonIniciar;
-
-    @FXML
     void bttonIniciar(MouseEvent event) {
-        String usuario = textFieldUsuario.getText();
-        String contraseña = textFieldPwd.getText();
-
         if (comboxUsuario.getValue() != null) {
+            String usuario = textFieldUsuario.getText();
+            String contraseña = textFieldPwd.getText();
+
             switch (comboxUsuario.getValue()) {
                 case "Admin":
                     Admin admin = new Admin();
@@ -58,14 +47,7 @@ public class HelloController {
                 default:
                     break;
             }
-        } else {
-            mostrarAlerta("Error", "No se ha seleccionado ningún usuario", "Seleccione un usuario", Alert.AlertType.ERROR);
         }
-    }
-
-    @FXML
-    void bttonSalir() {
-        HelloApplication.getStageView().close();
     }
 
     private void mostrarAlerta(String titulo, String encabezado, String contenido, Alert.AlertType tipo) {
@@ -75,8 +57,12 @@ public class HelloController {
         alert.setContentText(contenido);
         alert.showAndWait();
     }
+
     @FXML
     void initialize() {
         comboxUsuario.getItems().addAll("Admin", "SuperAdmin");
+    }
+
+    public void bttonSalir(MouseEvent mouseEvent) {
     }
 }

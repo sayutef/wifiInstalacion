@@ -23,7 +23,7 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         stageRoot = stage;
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("agregarProductos.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         scene.getStylesheets().add(BootstrapFX.bootstrapFXStylesheet());
         stage.setTitle("Inicio de Sesión - Home");

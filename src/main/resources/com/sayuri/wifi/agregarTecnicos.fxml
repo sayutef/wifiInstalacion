@@ -21,7 +21,7 @@
             </Label>
             <ImageView fitHeight="102.0" fitWidth="99.0" layoutX="582.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@Imagenes/icon01.png" />
+                  <Image url="@../../../../../../../wifiInstalacion-main/wifiInstalacion-main/src/main/resources/com/sayuri/wifi/Imagenes/icon01.png" />
                </image>
             </ImageView>
          </children></Pane>

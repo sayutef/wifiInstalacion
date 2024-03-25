@@ -4,8 +4,6 @@ public class Admin {
     private String contraseña = "Admin2024";
     private Administrador admin = new Administrador();
 
-    // Getters y setters
-
     public String getUser() {
         return user;
     }

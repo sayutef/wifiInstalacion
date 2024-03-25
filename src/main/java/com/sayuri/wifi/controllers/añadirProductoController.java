@@ -41,7 +41,7 @@ public class añadirProductoController {
             case "LitebeamM5":
                 HelloApplication.newStage("litebeamM5View","Agregar Producto");
                 break;
-            case "Maastil":
+            case "Mastil":
                 HelloApplication.newStage("mastilView","Agregar Producto");
                 break;
             case "Modem":
@@ -56,7 +56,7 @@ public class añadirProductoController {
 
     @FXML
     void initialize() {
-        comboProductAdd.getItems().addAll("LitebeamM5", "Maastil","Modem");
+        comboProductAdd.getItems().addAll("LitebeamM5", "Mastil","Modem");
     }
 }
 

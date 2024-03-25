@@ -97,16 +97,6 @@ public class menuAdminControllers {
 
     @FXML
     void initialize() {
-        assert bttonSeeTecnicos != null : "fx:id=\"bttonSeeTecnicos\" was not injected: check your FXML file 'menuAdmin.fxml'.";
-        assert bttonAddProducto != null : "fx:id=\"bttonAddProducto\" was not injected: check your FXML file 'menuAdmin.fxml'.";
-        assert bttonDelateProducto != null : "fx:id=\"bttonDelateProducto\" was not injected: check your FXML file 'menuAdmin.fxml'.";
-        assert bttonImprimir != null : "fx:id=\"bttonImprimir\" was not injected: check your FXML file 'menuAdmin.fxml'.";
-        assert bttonComprobante != null : "fx:id=\"bttonComprobante\" was not injected: check your FXML file 'menuAdmin.fxml'.";
-        assert bttonSeeUser != null : "fx:id=\"bttonSeeUser\" was not injected: check your FXML file 'menuAdmin.fxml'.";
-        assert bttonSeeOrdenes != null : "fx:id=\"bttonSeeOrdenes\" was not injected: check your FXML file 'menuAdmin.fxml'.";
-        assert bttonGenerarReporte != null : "fx:id=\"bttonGenerarReporte\" was not injected: check your FXML file 'menuAdmin.fxml'.";
-        assert bttonDelateReporte != null : "fx:id=\"bttonDelateReporte\" was not injected: check your FXML file 'menuAdmin.fxml'.";
-        assert bttonSalir != null : "fx:id=\"bttonSalir\" was not injected: check your FXML file 'menuAdmin.fxml'.";
 
     }
 

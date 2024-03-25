@@ -31,7 +31,7 @@ public class viewEmpleadosController {
 
     @FXML
     void bttonReturn(MouseEvent event) {
-
+        HelloApplication.getStageView().close();
     }
 
     @FXML
