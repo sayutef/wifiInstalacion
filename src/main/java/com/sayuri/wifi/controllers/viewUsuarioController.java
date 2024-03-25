@@ -8,7 +8,9 @@ import com.sayuri.wifi.models.Administrador;
 import com.sayuri.wifi.models.Persona;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.ListView;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 
 public class viewUsuarioController {
@@ -20,29 +22,39 @@ public class viewUsuarioController {
     private URL location;
 
     @FXML
-    private ListView<String> ListView;
-
-    @FXML
     private Button bttonReturn;
 
     @FXML
     private Button bttonVerUser;
 
     @FXML
-    void bttonReturn(MouseEvent event) {
+    private TableView<Persona> tableView;
 
+    @FXML
+    private TableColumn<Persona, String> c1Table;
+
+    @FXML
+    private TableColumn<Persona, String> c2Table;
+
+    @FXML
+    private TableColumn<Persona, String> c3Table;
+
+    @FXML
+    void bttonReturn(MouseEvent event) {
+        HelloApplication.getStageView().close();
     }
 
     @FXML
     void bttonVerUser(MouseEvent event) {
-        Administrador user = HelloApplication.getAdmin();
-        for (Persona imprimir : user.getListPersona()){
-            ListView.getItems().add(imprimir.toString());
-        }
+        Administrador admin = HelloApplication.getAdmin();
+        tableView.getItems().clear();
+        tableView.getItems().addAll(admin.getListPersona());
     }
 
     @FXML
     void initialize() {
-
+        c1Table.setCellValueFactory(new PropertyValueFactory<>("Nombre"));
+        c2Table.setCellValueFactory(new PropertyValueFactory<>("Apellido"));
+        c3Table.setCellValueFactory(new PropertyValueFactory<>("Direccion"));
     }
 }
