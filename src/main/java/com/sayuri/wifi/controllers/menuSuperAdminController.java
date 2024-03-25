@@ -67,17 +67,17 @@ public class menuSuperAdminController {
 
     @FXML
     void bttonAddTec(MouseEvent event) {
-        HelloApplication.newStage("agregarTecnicos","Agregar Tecnico");
+        HelloApplication.newStage("agregarTecnicos","Agregar Tecnicos");
     }
 
     @FXML
     void bttonAddUser(MouseEvent event) {
-       HelloApplication.newStage("agregarUsuario","Agregar Usuario");
+        HelloApplication.newStage("agregarUsuario","Agregar Usuario");
     }
 
     @FXML
     void bttonDelatePaquete(MouseEvent event) {
-     HelloApplication.newStage("eliminarPaquetes","Eliminar Usuarios");
+        HelloApplication.newStage("eliminarPaquetes","Eliminar Usuarios");
     }
 
     @FXML
@@ -87,7 +87,7 @@ public class menuSuperAdminController {
 
     @FXML
     void bttonDelateTec(MouseEvent event) {
-       HelloApplication.newStage("eliminarTecnicos","Eliminar Tecnicos");
+        HelloApplication.newStage("eliminarTecnicos","Eliminar Tecnicos");
     }
 
     @FXML
@@ -102,7 +102,7 @@ public class menuSuperAdminController {
 
     @FXML
     void bttonSeePaquete(MouseEvent event) {
-       HelloApplication.newStage("verPaquetesWifi","Ver Paquetes");
+        HelloApplication.newStage("verPaquetesWifi","Ver Paquetes");
     }
 
     @FXML

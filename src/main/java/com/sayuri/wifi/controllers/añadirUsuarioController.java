@@ -4,7 +4,6 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 import com.sayuri.wifi.HelloApplication;
-import com.sayuri.wifi.models.Tecnico;
 import com.sayuri.wifi.models.Usuario;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
@@ -72,6 +71,5 @@ public class añadirUsuarioController {
 
     @FXML
     void initialize() {
-
     }
 }
