@@ -6,6 +6,8 @@ import java.util.ResourceBundle;
 import com.sayuri.wifi.HelloApplication;
 import com.sayuri.wifi.models.Administrador;
 import com.sayuri.wifi.models.Persona;
+import com.sayuri.wifi.models.Tecnico;
+import com.sayuri.wifi.models.Usuario;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
@@ -62,7 +64,11 @@ public class removerUsuarioController {
     void bttonVer(MouseEvent event) {
         Administrador admin = HelloApplication.getAdmin();
         tableView.getItems().clear();
-        tableView.getItems().addAll(admin.getListPersona());
+        for (Persona usuario : admin.getListPersona()) {
+            if (usuario instanceof Usuario) {
+                tableView.getItems().add(usuario);
+            }
+        }
     }
 
     @FXML

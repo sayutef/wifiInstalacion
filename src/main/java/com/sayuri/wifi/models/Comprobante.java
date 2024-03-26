@@ -1,6 +1,5 @@
 package com.sayuri.wifi.models;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class Comprobante {
@@ -9,14 +8,15 @@ public class Comprobante {
     private double totalPago;
     private LocalDateTime fecha;
     private int noTicket;
-    private int noTicketI;
 
-    public Comprobante(String nombreUsuario, String nombrePaquete, double totalPago, LocalDateTime fecha, int noTicket) {
+    private static int contadorTickets = 0;
+
+    public Comprobante(String nombreUsuario, String nombrePaquete, double totalPago, LocalDateTime fecha) {
         this.nombreUsuario = nombreUsuario;
         this.nombrePaquete = nombrePaquete;
         this.totalPago = totalPago;
         this.fecha = fecha;
-        this.noTicket = noTicket;
+        this.noTicket = ++contadorTickets;
     }
 
     public Comprobante() {
@@ -41,11 +41,6 @@ public class Comprobante {
     public int getNoTicket() {
         return noTicket;
     }
-
-    public int incrementarNoTicket() {
-        return ++noTicketI;
-    }
-
     @Override
     public String toString() {
         return "Comprobante{" +
@@ -54,8 +49,6 @@ public class Comprobante {
                 ", totalPago=" + totalPago +
                 ", fecha=" + fecha +
                 ", noTicket=" + noTicket +
-                ", noTicketI=" + noTicketI +
                 '}';
     }
 }
-

@@ -83,7 +83,7 @@ public class menuAdminControllers {
 
     @FXML
     void bttonSalir(MouseEvent event) {
-
+        HelloApplication.getStageView().close();
     }
 
     @FXML

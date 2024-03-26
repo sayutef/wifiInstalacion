@@ -48,7 +48,7 @@ public class viewComprobanteController {
 
     @FXML
     void bttonReturn(MouseEvent event) {
-
+        HelloApplication.getStageView().close();
     }
 
     @FXML
@@ -60,10 +60,10 @@ public class viewComprobanteController {
 
     @FXML
     void initialize() {
-        c1Table.setCellValueFactory(new PropertyValueFactory<>("Nombre"));
-        c2Table.setCellValueFactory(new  PropertyValueFactory<>("Paquete"));
-        c3Table.setCellValueFactory(new PropertyValueFactory<>("Total"));
+        c1Table.setCellValueFactory(new PropertyValueFactory<>("NombreUsuario"));
+        c2Table.setCellValueFactory(new  PropertyValueFactory<>("NombrePaquete"));
+        c3Table.setCellValueFactory(new PropertyValueFactory<>("TotalPago"));
         c4Table1.setCellValueFactory(new PropertyValueFactory<>("Fecha"));
-        c5Table1.setCellValueFactory(new PropertyValueFactory<>("No. Ticket"));
+        c5Table1.setCellValueFactory(new PropertyValueFactory<>("NoTicket"));
     }
 }

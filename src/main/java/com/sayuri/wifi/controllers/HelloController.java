@@ -3,6 +3,7 @@ package com.sayuri.wifi.controllers;
 import com.sayuri.wifi.HelloApplication;
 import com.sayuri.wifi.models.Admin;
 import com.sayuri.wifi.models.SuperAdmin;
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ComboBox;
@@ -49,6 +50,9 @@ public class HelloController {
             }
         }
     }
+    public void bttonSalir(MouseEvent mouseEvent) {
+        Platform.exit();
+    }
 
     private void mostrarAlerta(String titulo, String encabezado, String contenido, Alert.AlertType tipo) {
         Alert alert = new Alert(tipo);
@@ -63,6 +67,5 @@ public class HelloController {
         comboxUsuario.getItems().addAll("Admin", "SuperAdmin");
     }
 
-    public void bttonSalir(MouseEvent mouseEvent) {
-    }
+
 }

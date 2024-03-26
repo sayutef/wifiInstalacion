@@ -51,12 +51,12 @@ public class añadirComprobanteController {
             String paquete = textNamePaquete.getText();
             double total = Double.parseDouble(textTotalPagar.getText());
             LocalDateTime fechaHoraActual = LocalDateTime.now();
-            int ticket = comprobante1.incrementarNoTicket();
+            int ticket = comprobante1.getNoTicket();
 
             if (nombre.isEmpty() || paquete.isEmpty()) {
                 throw new IllegalArgumentException("Faltan datos por introducir en el formulario.");
             }
-            Comprobante comprobante = new Comprobante(nombre, paquete, total, fechaHoraActual, ticket);
+            Comprobante comprobante = new Comprobante(nombre, paquete, total, fechaHoraActual);
             HelloApplication.getAdmin().addComprobante(comprobante);
             Fecha.setText("Fecha: " + comprobante.getFecha().toString());
             NoTicket.setText("No. de Ticket: " + comprobante.getNoTicket());
