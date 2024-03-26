@@ -1,0 +1,23 @@
+Button {
+    -fx-background-color: #3B92EB;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 2;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-style: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 10 10 10 10;
+    -fx-border-radius: 10 10 10 10;
+}
+
+Button:hover {
+    -fx-background-color: #ff00cc;
+    -fx-font-size: 16px;
+}
+
+Button:pressed {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+}
+

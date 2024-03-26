@@ -72,7 +72,7 @@ public class menuSuperAdminController {
 
     @FXML
     void bttonAddUser(MouseEvent event) {
-        HelloApplication.newStage("agregarUsuario","Agregar Usuario");
+        HelloApplication.newStage("agregarUsuarios","Agregar Usuarios");
     }
 
     @FXML

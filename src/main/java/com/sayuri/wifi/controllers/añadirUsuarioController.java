@@ -71,5 +71,11 @@ public class añadirUsuarioController {
 
     @FXML
     void initialize() {
+        assert textNameUser != null : "fx:id=\"textNameUser\" was not injected: check your FXML file 'agregarUsuarios.fxml'.";
+        assert textApellidoUser != null : "fx:id=\"textApellidoUser\" was not injected: check your FXML file 'agregarUsuarios.fxml'.";
+        assert textDireccion != null : "fx:id=\"textDireccion\" was not injected: check your FXML file 'agregarUsuarios.fxml'.";
+        assert bttonAdd != null : "fx:id=\"bttonAdd\" was not injected: check your FXML file 'agregarUsuarios.fxml'.";
+        assert bttonVolver != null : "fx:id=\"bttonVolver\" was not injected: check your FXML file 'agregarUsuarios.fxml'.";
+
     }
 }

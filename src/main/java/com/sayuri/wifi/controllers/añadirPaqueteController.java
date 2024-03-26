@@ -2,17 +2,15 @@ package com.sayuri.wifi.controllers;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-
 import com.sayuri.wifi.HelloApplication;
 import com.sayuri.wifi.models.Paquete;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
-import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 
-public class añadirPaqueteController  {
+public class añadirPaqueteController {
 
     @FXML
     private ResourceBundle resources;
@@ -24,25 +22,23 @@ public class añadirPaqueteController  {
     private TextField textNamePaquete;
 
     @FXML
-    private TextField textCostoPaquete;
+    private TextField textCosto;
 
     @FXML
-    private TextArea textAreaDescrp;
+    private TextField textDescription;
 
     @FXML
-    private Button bttonAdd;
+    private Button bttonAgregar;
 
     @FXML
-    private Button bttonVolver;
+    private Button bttonReturn;
 
     @FXML
-    void bttonAdd(MouseEvent event) {
-
-
+    void bttonAgregar(MouseEvent event) {
         try {
             String nombre = textNamePaquete.getText();
-            String costoStr = textCostoPaquete.getText();
-            String descripcion = textAreaDescrp.getText();
+            String costoStr = textCosto.getText();
+            String descripcion = textDescription.getText();
 
             if (nombre.isEmpty() || descripcion.isEmpty() || costoStr.isEmpty()) {
                 throw new IllegalArgumentException("Faltan datos por introducir en el formulario.");
@@ -77,11 +73,12 @@ public class añadirPaqueteController  {
     }
 
     @FXML
-    void bttonVolver(MouseEvent event) {
-
+    void bttonReturn(MouseEvent event) {
+        HelloApplication.getStageView().close();
     }
 
     @FXML
     void initialize() {
+
     }
 }

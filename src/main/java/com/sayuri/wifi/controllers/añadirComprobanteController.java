@@ -90,5 +90,13 @@ public class añadirComprobanteController {
 
     @FXML
     void initialize() {
+        assert Fecha != null : "fx:id=\"Fecha\" was not injected: check your FXML file 'agregarComprobante-view.fxml'.";
+        assert textNameUser != null : "fx:id=\"textNameUser\" was not injected: check your FXML file 'agregarComprobante-view.fxml'.";
+        assert textNamePaquete != null : "fx:id=\"textNamePaquete\" was not injected: check your FXML file 'agregarComprobante-view.fxml'.";
+        assert textTotalPagar != null : "fx:id=\"textTotalPagar\" was not injected: check your FXML file 'agregarComprobante-view.fxml'.";
+        assert bttonAdd != null : "fx:id=\"bttonAdd\" was not injected: check your FXML file 'agregarComprobante-view.fxml'.";
+        assert bttonVolver != null : "fx:id=\"bttonVolver\" was not injected: check your FXML file 'agregarComprobante-view.fxml'.";
+        assert NoTicket != null : "fx:id=\"NoTicket\" was not injected: check your FXML file 'agregarComprobante-view.fxml'.";
+
     }
 }

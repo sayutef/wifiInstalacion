@@ -71,6 +71,12 @@ public class añadirTecnicosController {
 
     @FXML
     void initialize() {
+        assert textNameTecnico != null : "fx:id=\"textNameTecnico\" was not injected: check your FXML file 'agregarTecnicos.fxml'.";
+        assert textApellido != null : "fx:id=\"textApellido\" was not injected: check your FXML file 'agregarTecnicos.fxml'.";
+        assert textTelefono != null : "fx:id=\"textTelefono\" was not injected: check your FXML file 'agregarTecnicos.fxml'.";
+        assert bttonAdd != null : "fx:id=\"bttonAdd\" was not injected: check your FXML file 'agregarTecnicos.fxml'.";
+        assert bttonReturn != null : "fx:id=\"bttonReturn\" was not injected: check your FXML file 'agregarTecnicos.fxml'.";
+
     }
 }
 
