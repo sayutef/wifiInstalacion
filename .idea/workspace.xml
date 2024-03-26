@@ -4,12 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="commit delate and view tecnico">
+    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="commit delate and view Usuario">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/eliminarLitebeamController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/eliminarMastilController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/eliminarModemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/eliminarLitebeam.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/eliminarMastil.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/eliminarModem.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_03_2024_01_56_p__m___Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_03_2024_01_56_p_ m__[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/removerUsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/removerUsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/viewUsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/viewUsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/añadirProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/removerProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/removerProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/viewProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/controllers/viewProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Administrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Administrador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/LitebeamM5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/LitebeamM5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Mastil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Mastil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Modem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Modem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/agregarProductos.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/agregarProductos.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/eliminarProductos.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/eliminarProductos.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/verUsuario.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/verUsuario.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/litebeamM5View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/litebeamM5View.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/mastilView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/mastilView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/modemView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/modemView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/verProductos.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/verProductos.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +37,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -34,20 +51,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "state": "OPEN",
-      "assignee": "Miltonvaz",
-      "author": "Miltonvaz"
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;Miltonvaz&quot;,
+      &quot;author&quot;: &quot;Miltonvaz&quot;
     }
   ],
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Miltonvaz",
-    "author": "Miltonvaz"
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Miltonvaz&quot;,
+    &quot;author&quot;: &quot;Miltonvaz&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -72,28 +89,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "Application.com.sayuri.wifi.HelloApplication.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propCompiler",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.sayuri.wifi.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Milto\IdeaProject\wifiInstalacion\src\main\java\com\sayuri\wifi\css" />
@@ -184,6 +201,10 @@
       <workItem from="1711220363619" duration="5288000" />
       <workItem from="1711238343527" duration="2361000" />
       <workItem from="1711247903068" duration="2350000" />
+      <workItem from="1711394855962" duration="5249000" />
+      <workItem from="1711402057480" duration="68000" />
+      <workItem from="1711420827561" duration="5000" />
+      <workItem from="1711472159268" duration="1318000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit">
       <option name="closed" value="true" />
@@ -425,7 +446,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711393181880</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="commit delate and view Usuario">
+      <option name="closed" value="true" />
+      <created>1711394428977</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1711394428977</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +472,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit menu admin" />
     <MESSAGE value="commit menu superadmin" />
     <MESSAGE value="commit inicio Sesion" />
     <MESSAGE value="commit Agregar Paquete" />
@@ -468,7 +496,8 @@
     <MESSAGE value="commit correcciones" />
     <MESSAGE value="commit delate and view paquete" />
     <MESSAGE value="commit delate and view tecnico" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit delate and view tecnico" />
+    <MESSAGE value="commit delate and view Usuario" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit delate and view Usuario" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

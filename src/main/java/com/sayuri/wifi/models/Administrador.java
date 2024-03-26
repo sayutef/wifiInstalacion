@@ -1,19 +1,32 @@
 package com.sayuri.wifi.models;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
- public class Administrador {
-        private ArrayList<Persona> ListPersona = new ArrayList<>();
-        private ArrayList<Paquete> listPaquetes = new ArrayList<>();
-        private ArrayList<Comprobante> listComprobante = new ArrayList<>();
-        private ArrayList<Producto> listProduct = new ArrayList<>();
-        private SuperAdmin superAdmin;
-        private Admin admin;
+public class Administrador {
+    private ArrayList<Persona> ListPersona = new ArrayList<>();
+    private ArrayList<Paquete> listPaquetes = new ArrayList<>();
+    private ArrayList<Comprobante> listComprobante = new ArrayList<>();
+    private ArrayList<Producto> listProduct = new ArrayList<>();
+    private SuperAdmin superAdmin;
+    private Admin admin;
+    public int contarCantidadProductos(String tipoProducto) {
+        int contador = 0;
+        for (Producto producto : listProduct) {
+            if (obtenerTipoProducto(producto).equalsIgnoreCase(tipoProducto)) {
+                contador++;
+            }
+        }
+        return contador;
+    }
 
     public boolean addPersona(Persona persona) {
         return ListPersona.add(persona);
     }
-
+    public String obtenerTipoProducto(Producto producto) {
+        return producto.getClass().getSimpleName();
+    }
     public ArrayList<Persona> getListPersona() {
         return ListPersona;
     }
@@ -35,7 +48,7 @@ import java.util.ArrayList;
     }
 
     public boolean addProduct(Producto product) {
-        return listProduct.add(product);
+        return  listProduct.add(product);
     }
 
     public ArrayList<Producto> getListProduct() {
@@ -63,24 +76,26 @@ import java.util.ArrayList;
         }
         return encontrado;
     }
-     public boolean eliminarComprobante(int noTicket) {
-         boolean encontrado = false;
-         for (int i = 0; i < listComprobante.size(); i++) {
-             if (listComprobante.get(i).getNoTicket() == noTicket) {
-                 encontrado = true;
-                 listComprobante.remove(i);
-             }
-         }
-         return encontrado;
-     }
-     public boolean eliminarPersonas(String nombre) {
-         boolean encontrado = false;
-         for (int i = 0; i < ListPersona.size(); i++) {
-             if (ListPersona.get(i).getNombre().equals(nombre)) {
-                 encontrado = true;
-                 ListPersona.remove(i);
-             }
-         }
-         return encontrado;
-     }
+
+    public boolean eliminarComprobante(int noTicket) {
+        boolean encontrado = false;
+        for (int i = 0; i < listComprobante.size(); i++) {
+            if (listComprobante.get(i).getNoTicket() == noTicket) {
+                encontrado = true;
+                listComprobante.remove(i);
+            }
+        }
+        return encontrado;
+    }
+
+    public boolean eliminarPersonas(String nombre) {
+        boolean encontrado = false;
+        for (int i = 0; i < ListPersona.size(); i++) {
+            if (ListPersona.get(i).getNombre().equals(nombre)) {
+                encontrado = true;
+                ListPersona.remove(i);
+            }
+        }
+        return encontrado;
+    }
 }

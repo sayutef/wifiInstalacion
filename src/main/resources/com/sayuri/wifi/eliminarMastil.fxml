@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="549.0" prefWidth="861.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sayuri.wifi.controllers.eliminarMastilController">
+    <children>
+        <Pane prefHeight="549.0" prefWidth="221.0" style="-fx-background-color: #009EFF;">
+            <children>
+                <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="36.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Imagenes/remover.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="14.0" layoutY="275.0" prefHeight="35.0" prefWidth="209.0" text="Eliminar Producto" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="24.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+        <TableView fx:id="tableView" layoutX="251.0" layoutY="39.0" prefHeight="236.0" prefWidth="567.0">
+            <columns>
+                <TableColumn fx:id="c1Table" prefWidth="141.0" text="Nombre" />
+                <TableColumn fx:id="c2Table" prefWidth="144.0" text="Costo" />
+                <TableColumn fx:id="c3Table" prefWidth="136.0" text="Material" />
+                <TableColumn fx:id="c4Table" prefWidth="145.0" text="Altura" />
+            </columns>
+        </TableView>
+        <Button fx:id="bttonEliminar" layoutX="318.0" layoutY="456.0" mnemonicParsing="false" onMouseClicked="#bttonEliminar" prefHeight="42.0" prefWidth="113.0" text="Eliminar" />
+        <Button fx:id="bttonVer" layoutX="499.0" layoutY="456.0" mnemonicParsing="false" onMouseClicked="#bttonVer" prefHeight="42.0" prefWidth="113.0" text="Ver" />
+        <Button fx:id="bttonCancel" layoutX="663.0" layoutY="456.0" mnemonicParsing="false" onMouseClicked="#bttonCancel" prefHeight="42.0" prefWidth="113.0" text="Cancelar" />
+        <VBox layoutX="351.0" layoutY="301.0" prefHeight="109.0" prefWidth="368.0" spacing="15.0">
+            <children>
+                <Label alignment="CENTER" prefHeight="21.0" prefWidth="338.0" text="Ingresa el Nombre del Producto a Eliminar:">
+                    <font>
+                        <Font name="System Bold" size="16.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="textFieldEliminar" />
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

@@ -23,12 +23,6 @@ public class añadirProductoController {
     private ComboBox<String> comboProductAdd;
 
     @FXML
-    private TextField textCostoProduct;
-
-    @FXML
-    private TextField textDescripcionProduct;
-
-    @FXML
     private Button bttonAdd;
 
     @FXML

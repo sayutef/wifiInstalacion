@@ -15,13 +15,11 @@ public class Mastil extends Producto{
         this.altura = altura;
     }
 
-    @Override
-    public String toString() {
-        return "Mastil{" +
-                "material='" + material + '\'' +
-                ", altura=" + altura +
-                ", nombre='" + nombre + '\'' +
-                ", costo=" + costo +
-                '}';
+    public String getMaterial() {
+        return material;
+    }
+
+    public int getAltura() {
+        return altura;
     }
 }

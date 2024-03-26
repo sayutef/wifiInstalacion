@@ -10,16 +10,6 @@ public class Modem extends Producto{
         this.tipoModem = tipoModem;
     }
 
-    @Override
-    public String toString() {
-        return "Modem{" +
-                "velocidad=" + velocidad +
-                ", tipoModem='" + tipoModem + '\'' +
-                ", nombre='" + nombre + '\'' +
-                ", costo=" + costo +
-                '}';
-    }
-
     public int getVelocidad() {
         return velocidad;
     }
