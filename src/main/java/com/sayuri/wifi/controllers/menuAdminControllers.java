@@ -53,7 +53,7 @@ public class menuAdminControllers {
 
     @FXML
     void bttonAddUsuario(MouseEvent event) {
-        HelloApplication.newStage("agregrarUsuarios", "Agregar Usuarios");
+        HelloApplication.newStage("agregarUsuarios","Agregar Usuarios");
     }
 
     @FXML
