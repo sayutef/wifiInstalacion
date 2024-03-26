@@ -35,13 +35,13 @@ public class removerPaqueteController {
     private Button bttonVer;
 
     @FXML
-    private TableView<String> tableView;
+    private TableView<Paquete> tableView;
 
     @FXML
-    private TableColumn<Paquete, Integer> c1Table;
+    private TableColumn<Paquete, String> c1Table;
 
     @FXML
-    private TableColumn<Paquete, String> c2Table;
+    private TableColumn<Paquete, Integer> c2Table;
 
     @FXML
     private TableColumn<Paquete, String> c3Table;
@@ -62,13 +62,14 @@ public class removerPaqueteController {
     @FXML
     void bttonVer(MouseEvent event) {
         Administrador admin = HelloApplication.getAdmin();
-        tableView.getItems().addAll(admin.toString());
+        tableView.getItems().clear();
+        tableView.getItems().addAll(admin.getListPaquetes());
     }
 
     @FXML
     void initialize() {
-        c1Table.setCellValueFactory(new PropertyValueFactory<>("Costo"));
-        c2Table.setCellValueFactory(new PropertyValueFactory<>("Nombre"));
+        c1Table.setCellValueFactory(new PropertyValueFactory<>("Nombre"));
+        c2Table.setCellValueFactory(new PropertyValueFactory<>("Costo"));
         c3Table.setCellValueFactory(new PropertyValueFactory<>("Descripcion"));
     }
 }

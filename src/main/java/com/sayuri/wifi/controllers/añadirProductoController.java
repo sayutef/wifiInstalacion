@@ -36,14 +36,12 @@ public class añadirProductoController {
 
     @FXML
     void bttonAdd(MouseEvent event) {
-        int costo = Integer.parseInt(textCostoProduct.getText());
-        String descripcion = textDescripcionProduct.getText();
         Producto producto = null;
         switch (comboProductAdd.getValue()){
             case "LitebeamM5":
                 HelloApplication.newStage("litebeamM5View","Agregar Producto");
                 break;
-            case "Maastil":
+            case "Mastil":
                 HelloApplication.newStage("mastilView","Agregar Producto");
                 break;
             case "Modem":
@@ -58,7 +56,7 @@ public class añadirProductoController {
 
     @FXML
     void initialize() {
-        comboProductAdd.getItems().addAll("LitebeamM5", "Maastil","Modem");
+        comboProductAdd.getItems().addAll("LitebeamM5", "Mastil","Modem");
     }
 }
 

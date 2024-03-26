@@ -2,27 +2,34 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sayuri.wifi.controllers.viewUsuarioController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="515.0" prefWidth="796.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sayuri.wifi.controllers.viewUsuarioController">
     <children>
-        <Pane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #A5FFFB;">
+        <Pane layoutY="-3.0" prefHeight="524.0" prefWidth="796.0" style="-fx-background-color: #A5FFFB;">
             <children>
-                <Pane prefHeight="83.0" prefWidth="600.0" style="-fx-background-color: white;">
+                <Pane prefHeight="83.0" prefWidth="796.0" style="-fx-background-color: white;">
                     <children>
-                        <Label layoutX="202.0" layoutY="24.0" text="Ver Usuario">
+                        <Label layoutX="308.0" layoutY="24.0" text="Ver Usuario">
                             <font>
                                 <Font name="Century751 No2 BT Bold" size="30.0" />
                             </font>
                         </Label>
                     </children>
                 </Pane>
-                <ListView fx:id="listViewUser" layoutX="53.0" layoutY="100.0" prefHeight="200.0" prefWidth="496.0" />
-                <Button fx:id="bttonReturn" layoutX="377.0" layoutY="335.0" mnemonicParsing="false" onMouseClicked="#bttonReturn" text="volver" />
-                <Button fx:id="bttonSeeUser" layoutX="155.0" layoutY="335.0" mnemonicParsing="false" onMouseClicked="#bttonSeeUser" prefHeight="31.0" prefWidth="60.0" text="Ver" />
+                <Button fx:id="bttonReturn" layoutX="514.0" layoutY="426.0" mnemonicParsing="false" onMouseClicked="#bttonReturn" prefHeight="57.0" prefWidth="159.0" text="volver" />
+                <Button fx:id="bttonVerUser" layoutX="208.0" layoutY="426.0" mnemonicParsing="false" onMouseClicked="#bttonVerUser" prefHeight="57.0" prefWidth="159.0" text="Ver" />
+            <TableView fx:id="tableView" layoutX="92.0" layoutY="103.0" prefHeight="286.0" prefWidth="612.0">
+              <columns>
+                <TableColumn fx:id="c1Table" prefWidth="200.0" text="Nombre" />
+                <TableColumn fx:id="c2Table" prefWidth="208.0" text="Apellido" />
+                  <TableColumn fx:id="c3Table" prefWidth="203.0" text="Direccion" />
+              </columns>
+            </TableView>
             </children>
         </Pane>
     </children>

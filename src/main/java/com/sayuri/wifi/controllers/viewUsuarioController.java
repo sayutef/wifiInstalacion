@@ -6,10 +6,11 @@ import java.util.ResourceBundle;
 import com.sayuri.wifi.HelloApplication;
 import com.sayuri.wifi.models.Administrador;
 import com.sayuri.wifi.models.Persona;
-import com.sayuri.wifi.models.Usuario;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.ListView;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 
 public class viewUsuarioController {
@@ -21,32 +22,39 @@ public class viewUsuarioController {
     private URL location;
 
     @FXML
-    private ListView<String> listViewUser;
-
-    @FXML
     private Button bttonReturn;
 
     @FXML
-    private Button bttonSeeUser;
+    private Button bttonVerUser;
+
+    @FXML
+    private TableView<Persona> tableView;
+
+    @FXML
+    private TableColumn<Persona, String> c1Table;
+
+    @FXML
+    private TableColumn<Persona, String> c2Table;
+
+    @FXML
+    private TableColumn<Persona, String> c3Table;
 
     @FXML
     void bttonReturn(MouseEvent event) {
-
+        HelloApplication.getStageView().close();
     }
 
     @FXML
-    void bttonSeeUser(MouseEvent event) {
-        Administrador usuario = HelloApplication.getAdmin();
-        for (Persona usuario1 : usuario.getListPersona()){
-            listViewUser.getItems().add(usuario1.toString());
-        }
+    void bttonVerUser(MouseEvent event) {
+        Administrador admin = HelloApplication.getAdmin();
+        tableView.getItems().clear();
+        tableView.getItems().addAll(admin.getListPersona());
     }
 
     @FXML
     void initialize() {
-        assert listViewUser != null : "fx:id=\"listViewUser\" was not injected: check your FXML file 'verUsuario.fxml'.";
-        assert bttonReturn != null : "fx:id=\"bttonReturn\" was not injected: check your FXML file 'verUsuario.fxml'.";
-        assert bttonSeeUser != null : "fx:id=\"bttonSeeUser\" was not injected: check your FXML file 'verUsuario.fxml'.";
-
+        c1Table.setCellValueFactory(new PropertyValueFactory<>("Nombre"));
+        c2Table.setCellValueFactory(new PropertyValueFactory<>("Apellido"));
+        c3Table.setCellValueFactory(new PropertyValueFactory<>("Direccion"));
     }
 }

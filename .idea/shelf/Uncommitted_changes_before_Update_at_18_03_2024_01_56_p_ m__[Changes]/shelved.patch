@@ -1,0 +1,246 @@
+Index: src/main/java/com/sayuri/wifi/models/Producto.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.sayuri.wifi.models;\r\n\r\npublic class Producto {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/sayuri/wifi/models/Producto.java b/src/main/java/com/sayuri/wifi/models/Producto.java
+--- a/src/main/java/com/sayuri/wifi/models/Producto.java	(revision 85ae3f0a9e14e6c95d231ca54e8ab15b79c7b8ba)
++++ b/src/main/java/com/sayuri/wifi/models/Producto.java	(date 1710788875981)
+@@ -1,4 +1,28 @@
+ package com.sayuri.wifi.models;
+ 
+ public class Producto {
++    protected String nombre;
++    protected int costo;
++
++    public Producto(){}
++    public Producto(String nombre, int costo) {
++        this.nombre = nombre;
++        this.costo = costo;
++    }
++
++    public String getNombre() {
++        return nombre;
++    }
++
++    public void setNombre(String nombre) {
++        this.nombre = nombre;
++    }
++
++    public int getCosto() {
++        return costo;
++    }
++
++    public void setCosto(int costo) {
++        this.costo = costo;
++    }
+ }
+Index: src/main/java/com/sayuri/wifi/HelloApplication.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.sayuri.wifi;\r\n\r\nimport javafx.application.Application;\r\nimport javafx.fxml.FXMLLoader;\r\nimport javafx.scene.Parent;\r\nimport javafx.scene.Scene;\r\nimport javafx.stage.Modality;\r\nimport javafx.stage.Stage;\r\nimport org.kordamp.bootstrapfx.BootstrapFX;\r\n\r\nimport java.io.IOException;\r\n\r\npublic class HelloApplication extends Application {\r\n    private static Stage stageView;\r\n    private static Stage stageRoot;\r\n    @Override\r\n    public void start(Stage stage) throws IOException {\r\n        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource(\"hello-view.fxml\"));\r\n        Scene scene = new Scene(fxmlLoader.load(), 320, 240);\r\n        stage.setTitle(\"Hello!\");\r\n        stage.setScene(scene);\r\n        stage.show();\r\n\r\n    }\r\n    public static void newStage(String fxml, String title) {\r\n        stageView = new Stage();\r\n        Scene scene = null;\r\n        try {\r\n            scene = new Scene(loadFXML(fxml));\r\n            scene.getStylesheets().add(BootstrapFX.bootstrapFXStylesheet());\r\n            stageView.setTitle(title);\r\n            stageView.setScene(scene);\r\n            stageView.centerOnScreen();\r\n            stageView.initOwner(stageRoot);\r\n            stageView.initModality(Modality.APPLICATION_MODAL);\r\n            stageView.showAndWait();\r\n        } catch (IOException e) {\r\n            throw new RuntimeException(e);\r\n        }\r\n    }\r\n\r\n    private static Parent loadFXML(String fxml) throws IOException {\r\n        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource(fxml + \".fxml\"));\r\n        return fxmlLoader.load();\r\n    }\r\n\r\n    public static Stage getStageView() {\r\n        return stageView;\r\n    }\r\n\r\n\r\n    public static void main(String[] args) {\r\n        launch();\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/sayuri/wifi/HelloApplication.java b/src/main/java/com/sayuri/wifi/HelloApplication.java
+--- a/src/main/java/com/sayuri/wifi/HelloApplication.java	(revision 85ae3f0a9e14e6c95d231ca54e8ab15b79c7b8ba)
++++ b/src/main/java/com/sayuri/wifi/HelloApplication.java	(date 1710788959847)
+@@ -16,7 +16,7 @@
+     @Override
+     public void start(Stage stage) throws IOException {
+         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
+-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
++        Scene scene = new Scene(fxmlLoader.load());
+         stage.setTitle("Hello!");
+         stage.setScene(scene);
+         stage.show();
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"1dc3c080-ede9-4fe1-90bb-a2123b6640cb\" name=\"Changes\" comment=\"commit producto\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/menuAdmi.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/menuAdmi.fxml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"CSS File\" />\r\n        <option value=\"FxmlFile\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"ROOT_SYNC\" value=\"SYNC\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"mavenHome\" value=\"Use Maven wrapper\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 4\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2dFdtFfvuNq798z8y56WOTb4fMr\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Milto\\IdeaProject\\wifiInstalacion\\src\\main\\resources\\com\\sayuri\\wifi\" />\r\n      <recent name=\"C:\\Users\\Sayur\\IdeaProjects\\Wifi\\src\\main\\resources\\com\\sayuri\\wifi\" />\r\n    </key>\r\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\r\n      <recent name=\"com.sayuri.wifi\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"jdk-11.0.21-corretto-11.0.21-4caba194b151-9f4ef98c\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"1dc3c080-ede9-4fe1-90bb-a2123b6640cb\" name=\"Changes\" comment=\"\" />\r\n      <created>1709607975834</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1709607975834</updated>\r\n      <workItem from=\"1709607976905\" duration=\"2378000\" />\r\n      <workItem from=\"1710194480564\" duration=\"2329000\" />\r\n      <workItem from=\"1710196840868\" duration=\"1775000\" />\r\n      <workItem from=\"1710616644086\" duration=\"250000\" />\r\n      <workItem from=\"1710621211823\" duration=\"3030000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"My first commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710198565900</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710198565900</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"commit menu SuperAdmin\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710621265970</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710621265970</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"commit menu SuperAdmin2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710622131910</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710622131910</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"commit producto\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710623256526</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710623256526</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"My first commit\" />\r\n    <MESSAGE value=\"commit menu SuperAdmin\" />\r\n    <MESSAGE value=\"commit menu SuperAdmin2\" />\r\n    <MESSAGE value=\"commit producto\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"commit producto\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 85ae3f0a9e14e6c95d231ca54e8ab15b79c7b8ba)
++++ b/.idea/workspace.xml	(date 1710789356524)
+@@ -4,9 +4,12 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="commit producto">
++    <list default="true" id="1dc3c080-ede9-4fe1-90bb-a2123b6640cb" name="Changes" comment="commit menu superadmin">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/menuAdmi.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/menuAdmi.fxml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/HelloApplication.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Modem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Modem.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayuri/wifi/models/Producto.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/sayuri/wifi/hello-view.fxml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -25,6 +28,20 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+     <option name="ROOT_SYNC" value="SYNC" />
++  </component>
++  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
++  "lastFilter": {
++    "state": "OPEN",
++    "assignee": "Miltonvaz"
++  }
++}]]></component>
++  <component name="GithubPullRequestsUISettings">
++    <option name="selectedUrlAndAccountId">
++      <UrlAndAccount>
++        <option name="accountId" value="11ddbb8c-c5da-49ce-bad2-38eb1bfbea2f" />
++        <option name="url" value="https://github.com/sayutef/wifiInstalacion.git" />
++      </UrlAndAccount>
++    </option>
+   </component>
+   <component name="MavenImportPreferences">
+     <option name="generalSettings">
+@@ -89,6 +106,10 @@
+       <workItem from="1710196840868" duration="1775000" />
+       <workItem from="1710616644086" duration="250000" />
+       <workItem from="1710621211823" duration="3030000" />
++      <workItem from="1710626900907" duration="350000" />
++      <workItem from="1710652917439" duration="10000" />
++      <workItem from="1710733544230" duration="111000" />
++      <workItem from="1710788530033" duration="804000" />
+     </task>
+     <task id="LOCAL-00001" summary="My first commit">
+       <option name="closed" value="true" />
+@@ -122,7 +143,23 @@
+       <option name="project" value="LOCAL" />
+       <updated>1710623256526</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="commit menu admin">
++      <option name="closed" value="true" />
++      <created>1710627045391</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1710627045391</updated>
++    </task>
++    <task id="LOCAL-00006" summary="commit menu superadmin">
++      <option name="closed" value="true" />
++      <created>1710627185321</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1710627185321</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -133,7 +170,9 @@
+     <MESSAGE value="commit menu SuperAdmin" />
+     <MESSAGE value="commit menu SuperAdmin2" />
+     <MESSAGE value="commit producto" />
+-    <option name="LAST_COMMIT_MESSAGE" value="commit producto" />
++    <MESSAGE value="commit menu admin" />
++    <MESSAGE value="commit menu superadmin" />
++    <option name="LAST_COMMIT_MESSAGE" value="commit menu superadmin" />
+   </component>
+   <component name="XSLT-Support.FileAssociations.UIState">
+     <expand />
+Index: src/main/resources/com/sayuri/wifi/hello-view.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n<?import javafx.scene.control.Button?>\r\n<?import javafx.scene.control.Label?>\r\n<?import javafx.scene.control.MenuButton?>\r\n<?import javafx.scene.control.MenuItem?>\r\n<?import javafx.scene.control.PasswordField?>\r\n<?import javafx.scene.control.TextField?>\r\n<?import javafx.scene.layout.AnchorPane?>\r\n<?import javafx.scene.layout.HBox?>\r\n<?import javafx.scene.text.Font?>\r\n\r\n<AnchorPane maxHeight=\"-Infinity\" maxWidth=\"-Infinity\" minHeight=\"-Infinity\" minWidth=\"-Infinity\" prefHeight=\"746.0\" prefWidth=\"855.0\" style=\"-fx-background-color: #000000;\" xmlns=\"http://javafx.com/javafx/8.0.171\" xmlns:fx=\"http://javafx.com/fxml/1\">\r\n    <children>\r\n        <HBox layoutX=\"67.0\" layoutY=\"295.0\" prefHeight=\"31.0\" prefWidth=\"486.0\" spacing=\"68.0\">\r\n            <children>\r\n                <Label prefHeight=\"31.0\" prefWidth=\"114.0\" text=\"Usuario:\" textFill=\"WHITE\">\r\n                    <font>\r\n                        <Font name=\"Arial Bold\" size=\"21.0\" />\r\n                    </font>\r\n                </Label>\r\n                <TextField layoutX=\"150.0\" prefHeight=\"31.0\" prefWidth=\"332.0\" />\r\n            </children>\r\n        </HBox>\r\n        <HBox layoutX=\"67.0\" layoutY=\"395.0\" prefHeight=\"30.0\" prefWidth=\"369.0\" spacing=\"5.0\">\r\n            <children>\r\n                <Label prefHeight=\"31.0\" prefWidth=\"85.0\" text=\"Contraseña:\" textFill=\"WHITE\">\r\n                    <font>\r\n                        <Font name=\"Arial Bold\" size=\"14.0\" />\r\n                    </font>\r\n                </Label>\r\n                <PasswordField prefHeight=\"31.0\" prefWidth=\"272.0\" />\r\n            </children>\r\n        </HBox>\r\n        <HBox layoutX=\"282.0\" layoutY=\"600.0\" prefHeight=\"42.0\" prefWidth=\"358.0\" spacing=\"50.0\">\r\n            <children>\r\n                <Button mnemonicParsing=\"false\" prefHeight=\"42.0\" prefWidth=\"154.0\" style=\"-fx-background-color: #008000;\" text=\"Inicio Sesion\" textFill=\"WHITE\">\r\n                    <font>\r\n                        <Font name=\"System Bold\" size=\"14.0\" />\r\n                    </font>\r\n                </Button>\r\n                <Button mnemonicParsing=\"false\" prefHeight=\"42.0\" prefWidth=\"154.0\" style=\"-fx-background-color: #FF0000;\" text=\"Cancelar\" textFill=\"WHITE\">\r\n                    <font>\r\n                        <Font name=\"System Bold\" size=\"14.0\" />\r\n                    </font>\r\n                </Button>\r\n            </children>\r\n        </HBox>\r\n        <Label alignment=\"CENTER\" layoutX=\"258.0\" layoutY=\"59.0\" prefHeight=\"42.0\" prefWidth=\"340.0\" text=\"Instalación de wifi\" textFill=\"WHITE\">\r\n            <font>\r\n                <Font name=\"System Bold\" size=\"18.0\" />\r\n            </font>\r\n        </Label>\r\n        <HBox layoutX=\"55.0\" layoutY=\"186.0\" prefHeight=\"31.0\" prefWidth=\"707.0\">\r\n            <children>\r\n                <Label prefHeight=\"31.0\" prefWidth=\"121.0\" text=\"Tipo de usuario:\" textFill=\"WHITE\">\r\n                    <font>\r\n                        <Font name=\"System Bold\" size=\"15.0\" />\r\n                    </font>\r\n                </Label>\r\n                <MenuButton contentDisplay=\"BOTTOM\" mnemonicParsing=\"false\" prefHeight=\"31.0\" prefWidth=\"302.0\">\r\n                    <items>\r\n                        <MenuItem mnemonicParsing=\"false\" text=\"Administrador\" />\r\n                        <MenuItem mnemonicParsing=\"false\" text=\"SuperAdministrador\" />\r\n                    </items>\r\n                </MenuButton>\r\n            </children>\r\n        </HBox>\r\n    </children>\r\n</AnchorPane>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/com/sayuri/wifi/hello-view.fxml b/src/main/resources/com/sayuri/wifi/hello-view.fxml
+--- a/src/main/resources/com/sayuri/wifi/hello-view.fxml	(revision 85ae3f0a9e14e6c95d231ca54e8ab15b79c7b8ba)
++++ b/src/main/resources/com/sayuri/wifi/hello-view.fxml	(date 1710789352056)
+@@ -10,52 +10,52 @@
+ <?import javafx.scene.layout.HBox?>
+ <?import javafx.scene.text.Font?>
+ 
+-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="746.0" prefWidth="855.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
++<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="746.0" prefWidth="855.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+     <children>
+-        <HBox layoutX="67.0" layoutY="295.0" prefHeight="31.0" prefWidth="486.0" spacing="68.0">
++        <HBox layoutX="185.0" layoutY="291.0" prefHeight="31.0" prefWidth="486.0" spacing="85.0">
+             <children>
+                 <Label prefHeight="31.0" prefWidth="114.0" text="Usuario:" textFill="WHITE">
+                     <font>
+-                        <Font name="Arial Bold" size="21.0" />
++                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                 </Label>
+                 <TextField layoutX="150.0" prefHeight="31.0" prefWidth="332.0" />
+             </children>
+         </HBox>
+-        <HBox layoutX="67.0" layoutY="395.0" prefHeight="30.0" prefWidth="369.0" spacing="5.0">
++        <HBox layoutX="197.0" layoutY="398.0" prefHeight="31.0" prefWidth="462.0" spacing="60.0">
+             <children>
+-                <Label prefHeight="31.0" prefWidth="85.0" text="Contraseña:" textFill="WHITE">
++                <Label prefHeight="31.0" prefWidth="126.0" text="Contraseña:" textFill="WHITE">
+                     <font>
+-                        <Font name="Arial Bold" size="14.0" />
++                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                 </Label>
+                 <PasswordField prefHeight="31.0" prefWidth="272.0" />
+             </children>
+         </HBox>
+-        <HBox layoutX="282.0" layoutY="600.0" prefHeight="42.0" prefWidth="358.0" spacing="50.0">
++        <HBox layoutX="249.0" layoutY="568.0" prefHeight="42.0" prefWidth="358.0" spacing="50.0">
+             <children>
+                 <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="154.0" style="-fx-background-color: #008000;" text="Inicio Sesion" textFill="WHITE">
+                     <font>
+-                        <Font name="System Bold" size="14.0" />
++                        <Font name="System Bold" size="20.0" />
+                     </font>
+                 </Button>
+                 <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="154.0" style="-fx-background-color: #FF0000;" text="Cancelar" textFill="WHITE">
+                     <font>
+-                        <Font name="System Bold" size="14.0" />
++                        <Font name="System Bold" size="21.0" />
+                     </font>
+                 </Button>
+             </children>
+         </HBox>
+         <Label alignment="CENTER" layoutX="258.0" layoutY="59.0" prefHeight="42.0" prefWidth="340.0" text="Instalación de wifi" textFill="WHITE">
+             <font>
+-                <Font name="System Bold" size="18.0" />
++                <Font name="System Bold" size="37.0" />
+             </font>
+         </Label>
+-        <HBox layoutX="55.0" layoutY="186.0" prefHeight="31.0" prefWidth="707.0">
++        <HBox layoutX="173.0" layoutY="181.0" prefHeight="31.0" prefWidth="509.0">
+             <children>
+-                <Label prefHeight="31.0" prefWidth="121.0" text="Tipo de usuario:" textFill="WHITE">
++                <Label prefHeight="31.0" prefWidth="194.0" text="Tipo de usuario:" textFill="WHITE">
+                     <font>
+-                        <Font name="System Bold" size="15.0" />
++                        <Font name="System Bold" size="20.0" />
+                     </font>
+                 </Label>
+                 <MenuButton contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="31.0" prefWidth="302.0">
+Index: src/main/java/com/sayuri/wifi/models/Modem.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.sayuri.wifi.models;\r\n\r\npublic class Modem extends Producto{\r\n    private int velocidad;\r\n    private String tipoModem;\r\n\r\n    public Modem(String nombre, double costo, int velocidad, String tipoModem) {\r\n        super(nombre, costo);\r\n        this.velocidad = velocidad;\r\n        this.tipoModem = tipoModem;\r\n    }\r\n\r\n    @Override\r\n    public String toString() {\r\n        return \"Modem{\" +\r\n                \"velocidad=\" + velocidad +\r\n                \", tipoModem='\" + tipoModem + '\\'' +\r\n                \", nombre='\" + nombre + '\\'' +\r\n                \", costo=\" + costo +\r\n                '}';\r\n    }\r\n\r\n    public int getVelocidad() {\r\n        return velocidad;\r\n    }\r\n\r\n    public void setVelocidad(int velocidad) {\r\n        this.velocidad = velocidad;\r\n    }\r\n\r\n    public String getTipoModem() {\r\n        return tipoModem;\r\n    }\r\n\r\n    public void setTipoModem(String tipoModem) {\r\n        this.tipoModem = tipoModem;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/sayuri/wifi/models/Modem.java b/src/main/java/com/sayuri/wifi/models/Modem.java
+--- a/src/main/java/com/sayuri/wifi/models/Modem.java	(revision 85ae3f0a9e14e6c95d231ca54e8ab15b79c7b8ba)
++++ b/src/main/java/com/sayuri/wifi/models/Modem.java	(date 1710788903521)
+@@ -4,7 +4,7 @@
+     private int velocidad;
+     private String tipoModem;
+ 
+-    public Modem(String nombre, double costo, int velocidad, String tipoModem) {
++    public Modem(String nombre, int costo, int velocidad, String tipoModem) {
+         super(nombre, costo);
+         this.velocidad = velocidad;
+         this.tipoModem = tipoModem;
