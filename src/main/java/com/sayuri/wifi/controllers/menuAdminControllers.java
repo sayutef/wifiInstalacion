@@ -48,12 +48,12 @@ public class menuAdminControllers {
 
     @FXML
     void bttonAddProducto(MouseEvent event) {
-        HelloApplication.newStage("agregarProductos", "Agregar Producto");
+        HelloApplication.newStage("agregarProductos", "Agregar Productos");
     }
 
     @FXML
     void bttonAddUsuario(MouseEvent event) {
-        HelloApplication.newStage("agregrarUsuario", "Agregar Usuario");
+        HelloApplication.newStage("agregrarUsuarios", "Agregar Usuarios");
     }
 
     @FXML
@@ -93,7 +93,7 @@ public class menuAdminControllers {
 
     @FXML
     void bttonSeeUserOrProduct(MouseEvent event) {
-
+        HelloApplication.newStage("opcionUserOrProduct", "Opcion User Or Product");
     }
 
     @FXML

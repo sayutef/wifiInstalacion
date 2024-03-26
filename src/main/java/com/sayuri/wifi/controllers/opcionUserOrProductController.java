@@ -2,6 +2,8 @@ package com.sayuri.wifi.controllers;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import com.sayuri.wifi.HelloApplication;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
@@ -22,12 +24,12 @@ public class opcionUserOrProductController {
 
     @FXML
     void bttonSeeProduct(MouseEvent event) {
-
+        HelloApplication.newStage("verProductos", "Ver Productos");
     }
 
     @FXML
     void bttonSeeUser(MouseEvent event) {
-
+        HelloApplication.newStage("verUsuario", "Ver Usuario");
     }
 
     @FXML
